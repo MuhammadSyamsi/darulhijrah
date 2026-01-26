@@ -10,14 +10,12 @@
         "slack": "https://codeigniterchat.slack.com"
     },
     "require": {
-        "php": "^7.4 || ^8.0",
+        "php": "^8.0",
         "ext-intl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
         "laminas/laminas-escaper": "^2.9",
-        "mpdf/mpdf": "^6.1",
         "myth/auth": "^1.2",
-        "phpoffice/phpspreadsheet": "^1.29",
         "psr/log": "^1.1"
     },
     "require-dev": {

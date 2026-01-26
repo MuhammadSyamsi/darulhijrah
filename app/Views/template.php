@@ -78,10 +78,10 @@
 <!-- Wrapper -->
 <div class="pt-20 pb-20 max-w-7xl mx-auto px-4">
 
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+    <div class="grid grid-cols-1 gap-4">
 
         <!-- Main Content -->
-        <main class="col-span-1 md:col-span-3">
+        <main class="col-span-1">
             <?= $this->renderSection('konten'); ?>
         </main>
 

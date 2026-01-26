@@ -1,0 +1,71 @@
+# =========================
+# SYSTEM & OS
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# IDE / EDITOR
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# COMPOSER
+# =========================
+/vendor/
+composer.lock
+
+# =========================
+# ENV & CONFIG
+# =========================
+.env
+.env.*
+phpunit.xml
+spark
+
+# =========================
+# CI4 WRITABLE
+# =========================
+/writable/*
+!/writable/.htaccess
+!/writable/index.html
+
+# =========================
+# LOGS & CACHE
+# =========================
+writable/logs/*
+writable/cache/*
+writable/session/*
+writable/uploads/*
+writable/debugbar/*
+
+# =========================
+# PUBLIC
+# =========================
+public/*
+
+# =========================
+# NODE / FRONTEND (JIKA ADA)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# =========================
+# TESTING
+# =========================
+/tests/_support/_generated/
+
+# =========================
+# TEMP / BACKUP
+# =========================
+*.log
+*.bak
+*.sql
+*.zip
+*.tar
+*.gz
