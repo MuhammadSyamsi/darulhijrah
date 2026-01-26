@@ -1,0 +1,350 @@
+ERROR - 2025-05-27 03:24:33 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sistaff'@'localhost' (using password: YES) in C:\xampp\htdocs\sistaff\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\sistaff\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'sistaff', Object(SensitiveParameterValue), 'sistaff', 3306, '', 0)
+#1 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sistaff\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sistaff\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistaff\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sistaff\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(942): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistaff\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\sistaff\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sistaff\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\sistaff\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sistaff\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\sistaff\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(942): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistaff\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-05-27 03:24:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `santri`
+WHERE `kelas` != :kelas:
+AND `program` = :program:', [...], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-05-27 03:24:57 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sistaff'@'localhost' (using password: YES) in C:\xampp\htdocs\sistaff\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\sistaff\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'sistaff', Object(SensitiveParameterValue), 'sistaff', 3306, '', 0)
+#1 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sistaff\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sistaff\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistaff\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sistaff\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(942): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistaff\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\sistaff\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sistaff\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\sistaff\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sistaff\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\sistaff\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(942): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistaff\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-05-27 03:24:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `santri`
+WHERE `kelas` != :kelas:
+AND `program` = :program:', [...], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-05-27 03:24:59 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sistaff'@'localhost' (using password: YES) in C:\xampp\htdocs\sistaff\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\sistaff\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'sistaff', Object(SensitiveParameterValue), 'sistaff', 3306, '', 0)
+#1 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sistaff\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sistaff\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistaff\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sistaff\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(942): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistaff\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\sistaff\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sistaff\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\sistaff\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sistaff\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\sistaff\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(942): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistaff\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-05-27 03:24:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `santri`
+WHERE `kelas` != :kelas:
+AND `program` = :program:', [...], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-05-27 03:25:13 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sistaff'@'localhost' (using password: YES) in C:\xampp\htdocs\sistaff\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\sistaff\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'sistaff', Object(SensitiveParameterValue), 'sistaff', 3306, '', 0)
+#1 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sistaff\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sistaff\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistaff\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sistaff\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(942): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistaff\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\sistaff\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sistaff\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\sistaff\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sistaff\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\sistaff\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(942): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistaff\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-05-27 03:25:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `santri`
+WHERE `kelas` != :kelas:
+AND `program` = :program:', [...], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-05-27 03:25:26 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sistaff'@'localhost' (using password: YES) in C:\xampp\htdocs\sistaff\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\sistaff\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'sistaff', Object(SensitiveParameterValue), 'sistaff', 3306, '', 0)
+#1 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sistaff\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sistaff\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistaff\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sistaff\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(942): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistaff\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\sistaff\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sistaff\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\sistaff\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sistaff\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\sistaff\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(942): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistaff\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-05-27 03:25:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `santri`
+WHERE `kelas` != :kelas:
+AND `program` = :program:', [...], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-05-27 03:26:02 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sistaff'@'localhost' (using password: YES) in C:\xampp\htdocs\sistaff\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\sistaff\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'sistaff', Object(SensitiveParameterValue), 'sistaff', 3306, '', 0)
+#1 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sistaff\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sistaff\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistaff\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sistaff\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(942): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistaff\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\sistaff\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sistaff\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\sistaff\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sistaff\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\sistaff\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(942): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistaff\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-05-27 03:26:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `santri`
+WHERE `kelas` != :kelas:
+AND `program` = :program:', [...], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-05-27 05:49:18 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sistaff'@'127.0.0.1' (using password: YES) in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(140): CodeIgniter\BaseModel->first()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(19): Myth\Auth\Authentication\LocalAuthenticator->validate()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/vendor/myth/auth/src/Controllers/AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/CodeIgniter.php(942): Myth\Auth\Controllers\AuthController->attemptLogin()
+#10 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#11 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'127.0.0.1' (using password: YES) in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(140): CodeIgniter\BaseModel->first()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(19): Myth\Auth\Authentication\LocalAuthenticator->validate()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/vendor/myth/auth/src/Controllers/AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/CodeIgniter.php(942): Myth\Auth\Controllers\AuthController->attemptLogin()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-05-27 05:49:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'127.0.0.1' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 VENDORPATH/myth/auth/src/Authentication/LocalAuthenticator.php(140): CodeIgniter\BaseModel->first()
+ 6 VENDORPATH/myth/auth/src/Authentication/LocalAuthenticator.php(19): Myth\Auth\Authentication\LocalAuthenticator->validate()
+ 7 VENDORPATH/myth/auth/src/Controllers/AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt()
+ 8 SYSTEMPATH/CodeIgniter.php(942): Myth\Auth\Controllers\AuthController->attemptLogin()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-05-27 05:50:50 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'sistaff'@'localhost' (using password: YES) in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(140): CodeIgniter\BaseModel->first()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(19): Myth\Auth\Authentication\LocalAuthenticator->validate()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/vendor/myth/auth/src/Controllers/AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/CodeIgniter.php(942): Myth\Auth\Controllers\AuthController->attemptLogin()
+#10 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#11 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(140): CodeIgniter\BaseModel->first()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(19): Myth\Auth\Authentication\LocalAuthenticator->validate()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/vendor/myth/auth/src/Controllers/AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/CodeIgniter.php(942): Myth\Auth\Controllers\AuthController->attemptLogin()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-05-27 05:50:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 VENDORPATH/myth/auth/src/Authentication/LocalAuthenticator.php(140): CodeIgniter\BaseModel->first()
+ 6 VENDORPATH/myth/auth/src/Authentication/LocalAuthenticator.php(19): Myth\Auth\Authentication\LocalAuthenticator->validate()
+ 7 VENDORPATH/myth/auth/src/Controllers/AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt()
+ 8 SYSTEMPATH/CodeIgniter.php(942): Myth\Auth\Controllers\AuthController->attemptLogin()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

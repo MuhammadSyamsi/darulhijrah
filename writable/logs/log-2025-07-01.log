@@ -1,0 +1,177 @@
+CRITICAL - 2025-07-01 00:49:14 --> Invalid file: "partials/_card_psb.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/pages/tunggakan.php(37): view()
+ 4 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/tunggakan.php')
+ 5 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Page.php(419): view()
+ 8 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->datatunggakan()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-01 06:05:11 --> Trying to access array offset on value of type null
+in APPPATH/Views/pages/kwitansi.php on line 206.
+ 1 APPPATH/Views/pages/kwitansi.php(206): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/kwitansi.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Page.php(321): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->edit()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-01 11:09:16 --> syntax error, unexpected token "foreach"
+in APPPATH/Views/santri/data.php on line 102.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Santri.php(52): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Santri->data()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-01 11:36:37 --> Undefined constant "jenjang"
+in APPPATH/Views/santri/data.php on line 101.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Santri.php(52): view()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Santri->data()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-01 11:53:39 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH/Views/santri/data.php on line 105.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Santri.php(52): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Santri->data()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-01 11:53:40 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH/Views/santri/data.php on line 105.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Santri.php(52): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Santri->data()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-01 11:54:25 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH/Views/santri/data.php on line 105.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Santri.php(52): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Santri->data()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-01 11:54:26 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH/Views/santri/data.php on line 105.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Santri.php(52): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Santri->data()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-01 16:15:51 --> Undefined variable $mts
+in APPPATH/Views/santri/data.php on line 21.
+ 1 APPPATH/Views/santri/data.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/santri/data.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Santri.php(52): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Santri->data()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-01 16:24:13 --> Cannot use object of type CodeIgniter\Pager\Pager as array
+in APPPATH/Views/santri/data.php on line 81.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Santri.php(54): view()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Santri->data()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-01 18:37:36 --> Undefined array key "id"
+in APPPATH/Views/santri/data.php on line 104.
+ 1 APPPATH/Views/santri/data.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/santri/data.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Santri.php(54): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Santri->data()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-01 18:46:20 --> Undefined array key "id"
+in APPPATH/Views/santri/data.php on line 104.
+ 1 APPPATH/Views/santri/data.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/santri/data.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Santri.php(93): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Santri->data()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-01 18:47:55 --> Undefined array key "id"
+in APPPATH/Views/santri/data.php on line 104.
+ 1 APPPATH/Views/santri/data.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/santri/data.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Santri.php(93): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Santri->data()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-01 18:49:03 --> Undefined array key "id"
+in APPPATH/Views/santri/data.php on line 104.
+ 1 APPPATH/Views/santri/data.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/santri/data.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Santri.php(93): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Santri->data()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-01 18:53:54 --> Undefined array key "id"
+in APPPATH/Views/santri/data.php on line 104.
+ 1 APPPATH/Views/santri/data.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/santri/data.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Santri.php(104): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Santri->data()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-01 18:53:55 --> Undefined array key "id"
+in APPPATH/Views/santri/data.php on line 104.
+ 1 APPPATH/Views/santri/data.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/santri/data.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Santri.php(104): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Santri->data()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-01 18:57:57 --> Undefined array key "id"
+in APPPATH/Views/santri/data.php on line 85.
+ 1 APPPATH/Views/santri/data.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/santri/data.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Santri.php(54): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Santri->data()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

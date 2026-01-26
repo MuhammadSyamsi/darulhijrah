@@ -1,0 +1,224 @@
+CRITICAL - 2025-11-24 06:10:22 --> Call to undefined method App\Controllers\Page::failNotFound()
+in APPPATH/Controllers/Page.php on line 776.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->load()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-11-24 06:10:22 --> Call to undefined method App\Controllers\Page::failNotFound()
+in APPPATH/Controllers/Page.php on line 776.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->load()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-11-24 11:26:21 --> mysqli_sql_exception: Unknown column 'spp' in 'SELECT' in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Controllers/Home.php(350): CodeIgniter\BaseModel->findAll()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(942): App\Controllers\Home->downloadDetail()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-11-24 11:26:21 --> Unknown column 'spp' in 'SELECT'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/Home.php(350): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->downloadDetail()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-11-24 11:26:31 --> mysqli_sql_exception: Unknown column 'spp' in 'SELECT' in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Controllers/Home.php(350): CodeIgniter\BaseModel->findAll()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(942): App\Controllers\Home->downloadDetail()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-11-24 11:26:31 --> Unknown column 'spp' in 'SELECT'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/Home.php(350): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->downloadDetail()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-11-24 11:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-24 11:27:04 --> mysqli_sql_exception: Unknown column 'spp' in 'SELECT' in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Controllers/Home.php(350): CodeIgniter\BaseModel->findAll()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(942): App\Controllers\Home->downloadDetail()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-11-24 11:27:04 --> Unknown column 'spp' in 'SELECT'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/Home.php(350): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->downloadDetail()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-11-24 11:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 11:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 11:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 11:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 12:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 13:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 13:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 13:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 13:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 13:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 13:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 13:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 13:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 13:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 13:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 13:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-24 13:25:55 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH/Views/psb/edit_transaksi.php on line 117.
+ 1 APPPATH/Views/psb/edit_transaksi.php(117): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/psb/edit_transaksi.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('psb/edit_transaksi', [], true)
+ 5 APPPATH/Controllers/Psb.php(309): view('psb/edit_transaksi', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Psb->dtransaksi('4098')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psb))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-11-24 13:25:55 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH/Views/psb/edit_transaksi.php on line 117.
+ 1 APPPATH/Views/psb/edit_transaksi.php(117): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/psb/edit_transaksi.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('psb/edit_transaksi', [], true)
+ 5 APPPATH/Controllers/Psb.php(309): view('psb/edit_transaksi', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Psb->dtransaksi('4098')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psb))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-11-24 13:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 13:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 13:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 13:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 13:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 13:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 13:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-11-24 13:40:24 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH/Views/pages/laporan-pemasukan.php on line 105.
+ 1 APPPATH/Views/pages/laporan-pemasukan.php(105): number_format(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/laporan-pemasukan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/laporan-pemasukan', [], true)
+ 5 APPPATH/Controllers/Home.php(260): view('pages/laporan-pemasukan', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->koran()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-11-24 13:40:24 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH/Views/pages/laporan-pemasukan.php on line 106.
+ 1 APPPATH/Views/pages/laporan-pemasukan.php(106): number_format(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/laporan-pemasukan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/laporan-pemasukan', [], true)
+ 5 APPPATH/Controllers/Home.php(260): view('pages/laporan-pemasukan', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->koran()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-11-24 13:40:24 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH/Views/pages/laporan-pemasukan.php on line 105.
+ 1 APPPATH/Views/pages/laporan-pemasukan.php(105): number_format(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/laporan-pemasukan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/laporan-pemasukan', [], true)
+ 5 APPPATH/Controllers/Home.php(260): view('pages/laporan-pemasukan', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->koran()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-11-24 13:40:24 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH/Views/pages/laporan-pemasukan.php on line 106.
+ 1 APPPATH/Views/pages/laporan-pemasukan.php(106): number_format(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/laporan-pemasukan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/laporan-pemasukan', [], true)
+ 5 APPPATH/Controllers/Home.php(260): view('pages/laporan-pemasukan', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->koran()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-11-24 13:40:24 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH/Views/pages/laporan-pemasukan.php on line 269.
+ 1 APPPATH/Views/pages/laporan-pemasukan.php(269): number_format(null)
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/laporan-pemasukan.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/laporan-pemasukan', [], true)
+ 5 APPPATH/Controllers/Home.php(260): view('pages/laporan-pemasukan', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->koran()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-11-24 13:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 13:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 13:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 13:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 13:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-24 13:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

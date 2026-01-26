@@ -1,0 +1,12 @@
+CRITICAL - 2025-07-13 00:13:59 --> Anda tidak memiliki izin yang memadai untuk mengakses halaman itu.
+in FCPATH/vendor/myth/auth/src/Filters/RoleFilter.php on line 45.
+ 1 SYSTEMPATH/Filters/Filters.php(184): Myth\Auth\Filters\RoleFilter->before()
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-13 09:31:28 --> Call to undefined function Myth\Auth\Controllers\user()
+in FCPATH/vendor/myth/auth/src/Controllers/AuthController.php on line 48.
+ 1 SYSTEMPATH/CodeIgniter.php(942): Myth\Auth\Controllers\AuthController->login()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,174 @@
+CRITICAL - 2025-09-02 12:28:31 --> Undefined constant "base_url"
+in FCPATH/vendor/myth/auth/src/Views/login.php on line 191.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(412): view()
+ 5 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(58): Myth\Auth\Controllers\AuthController->_render()
+ 6 SYSTEMPATH/CodeIgniter.php(942): Myth\Auth\Controllers\AuthController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-02 12:28:31 --> Undefined constant "base_url"
+in FCPATH/vendor/myth/auth/src/Views/login.php on line 191.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(412): view()
+ 5 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(58): Myth\Auth\Controllers\AuthController->_render()
+ 6 SYSTEMPATH/CodeIgniter.php(942): Myth\Auth\Controllers\AuthController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-02 12:28:38 --> Undefined constant "base_url"
+in FCPATH/vendor/myth/auth/src/Views/login.php on line 191.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(412): view()
+ 5 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(58): Myth\Auth\Controllers\AuthController->_render()
+ 6 SYSTEMPATH/CodeIgniter.php(942): Myth\Auth\Controllers\AuthController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-02 12:28:46 --> Undefined constant "base_url"
+in FCPATH/vendor/myth/auth/src/Views/login.php on line 191.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(412): view()
+ 5 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(58): Myth\Auth\Controllers\AuthController->_render()
+ 6 SYSTEMPATH/CodeIgniter.php(942): Myth\Auth\Controllers\AuthController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-02 12:28:58 --> Undefined constant "base_url"
+in FCPATH/vendor/myth/auth/src/Views/login.php on line 191.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(412): view()
+ 5 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(58): Myth\Auth\Controllers\AuthController->_render()
+ 6 SYSTEMPATH/CodeIgniter.php(942): Myth\Auth\Controllers\AuthController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-02 12:29:03 --> Undefined constant "base_url"
+in FCPATH/vendor/myth/auth/src/Views/login.php on line 191.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(412): view()
+ 5 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(58): Myth\Auth\Controllers\AuthController->_render()
+ 6 SYSTEMPATH/CodeIgniter.php(942): Myth\Auth\Controllers\AuthController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-02 12:29:15 --> Undefined constant "base_url"
+in FCPATH/vendor/myth/auth/src/Views/login.php on line 191.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(412): view()
+ 5 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(58): Myth\Auth\Controllers\AuthController->_render()
+ 6 SYSTEMPATH/CodeIgniter.php(942): Myth\Auth\Controllers\AuthController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-02 12:29:25 --> Undefined constant "base_url"
+in FCPATH/vendor/myth/auth/src/Views/login.php on line 191.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(412): view()
+ 5 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(58): Myth\Auth\Controllers\AuthController->_render()
+ 6 SYSTEMPATH/CodeIgniter.php(942): Myth\Auth\Controllers\AuthController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-02 12:29:26 --> Undefined constant "base_url"
+in FCPATH/vendor/myth/auth/src/Views/login.php on line 191.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(412): view()
+ 5 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(58): Myth\Auth\Controllers\AuthController->_render()
+ 6 SYSTEMPATH/CodeIgniter.php(942): Myth\Auth\Controllers\AuthController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-02 12:29:27 --> Undefined constant "base_url"
+in FCPATH/vendor/myth/auth/src/Views/login.php on line 191.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(412): view()
+ 5 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(58): Myth\Auth\Controllers\AuthController->_render()
+ 6 SYSTEMPATH/CodeIgniter.php(942): Myth\Auth\Controllers\AuthController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-02 12:31:05 --> Undefined constant "base_url"
+in FCPATH/vendor/myth/auth/src/Views/login.php on line 191.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(412): view()
+ 5 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(58): Myth\Auth\Controllers\AuthController->_render()
+ 6 SYSTEMPATH/CodeIgniter.php(942): Myth\Auth\Controllers\AuthController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-02 12:31:09 --> Undefined constant "base_url"
+in FCPATH/vendor/myth/auth/src/Views/login.php on line 191.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(412): view()
+ 5 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(58): Myth\Auth\Controllers\AuthController->_render()
+ 6 SYSTEMPATH/CodeIgniter.php(942): Myth\Auth\Controllers\AuthController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-02 12:32:26 --> Undefined constant "base_url"
+in FCPATH/vendor/myth/auth/src/Views/login.php on line 191.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(412): view()
+ 5 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(58): Myth\Auth\Controllers\AuthController->_render()
+ 6 SYSTEMPATH/CodeIgniter.php(942): Myth\Auth\Controllers\AuthController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-02 12:32:28 --> Undefined constant "base_url"
+in FCPATH/vendor/myth/auth/src/Views/login.php on line 191.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(412): view()
+ 5 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(58): Myth\Auth\Controllers\AuthController->_render()
+ 6 SYSTEMPATH/CodeIgniter.php(942): Myth\Auth\Controllers\AuthController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-09-02 12:58:48 --> Undefined constant "base_url"
+in FCPATH/vendor/myth/auth/src/Views/login.php on line 191.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(412): view()
+ 5 FCPATH/vendor/myth/auth/src/Controllers/AuthController.php(58): Myth\Auth\Controllers\AuthController->_render()
+ 6 SYSTEMPATH/CodeIgniter.php(942): Myth\Auth\Controllers\AuthController->login()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-02 13:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-02 13:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-02 13:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-02 13:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-02 13:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-02 13:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-02 13:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-02 13:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-02 13:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

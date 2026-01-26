@@ -1,0 +1,11 @@
+CRITICAL - 2025-10-11 09:28:08 --> Undefined variable $transfer
+in APPPATH/Views/pages/kwitansi-update.php on line 26.
+ 1 APPPATH/Views/pages/kwitansi-update.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/kwitansi-update.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Psb.php(297): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Psb->bayar()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

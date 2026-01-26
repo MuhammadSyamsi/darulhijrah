@@ -1,0 +1,57 @@
+ERROR - 2024-01-08 03:39:26 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\sistaff\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\sistaff\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'sistaff', 3306, '', 0)
+#1 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sistaff\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sistaff\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistaff\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#6 C:\xampp\htdocs\sistaff\app\Views\pages\keuangan.php(13): CodeIgniter\BaseModel->findAll(5)
+#7 C:\xampp\htdocs\sistaff\system\View\View.php(228): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\sistaff\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 C:\xampp\htdocs\sistaff\system\Common.php(1190): CodeIgniter\View\View->render('pages/keuangan', Array, true)
+#10 C:\xampp\htdocs\sistaff\app\Controllers\Page.php(12): view('pages/keuangan')
+#11 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(942): App\Controllers\Page->keuangan()
+#12 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#13 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\sistaff\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\sistaff\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\sistaff\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sistaff\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\sistaff\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sistaff\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#5 C:\xampp\htdocs\sistaff\app\Views\pages\keuangan.php(13): CodeIgniter\BaseModel->findAll(5)
+#6 C:\xampp\htdocs\sistaff\system\View\View.php(228): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\sistaff\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\sistaff\system\Common.php(1190): CodeIgniter\View\View->render('pages/keuangan', Array, true)
+#9 C:\xampp\htdocs\sistaff\app\Controllers\Page.php(12): view('pages/keuangan')
+#10 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(942): App\Controllers\Page->keuangan()
+#11 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#12 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\sistaff\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\sistaff\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-01-08 03:39:26 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `santri`
+ LIMIT 5', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+ 5 APPPATH\Views\pages\keuangan.php(13): CodeIgniter\BaseModel->findAll(5)
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sistaff\\app\\Views\\pages\\keuangan.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/keuangan', [], true)
+ 9 APPPATH\Controllers\Page.php(12): view('pages/keuangan')
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->keuangan()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sistaff\\public\\index.php')

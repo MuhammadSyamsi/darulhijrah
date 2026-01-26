@@ -1,0 +1,22 @@
+CRITICAL - 2024-08-10 03:14:02 --> Undefined variable $status
+in APPPATH\Views\psb\home.php on line 84.
+ 1 APPPATH\Views\psb\home.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\sistaff\\app\\Views\\psb\\home.php', 84)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sistaff\\app\\Views\\psb\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('psb/home', [], true)
+ 5 APPPATH\Controllers\Psb.php(30): view('psb/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Psb->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psb))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-10 03:14:42 --> Undefined variable $status
+in APPPATH\Views\psb\home.php on line 84.
+ 1 APPPATH\Views\psb\home.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\sistaff\\app\\Views\\psb\\home.php', 84)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sistaff\\app\\Views\\psb\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('psb/home', [], true)
+ 5 APPPATH\Controllers\Psb.php(30): view('psb/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Psb->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psb))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

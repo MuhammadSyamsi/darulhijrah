@@ -1,0 +1,46 @@
+ERROR - 2025-07-15 06:23:30 --> Error connecting to the database: mysqli_sql_exception: Too many connections in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/vendor/myth/auth/src/Authentication/AuthenticationBase.php(130): CodeIgniter\BaseModel->find()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/vendor/myth/auth/src/Filters/RoleFilter.php(21): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Filters/Filters.php(184): Myth\Auth\Filters\RoleFilter->before()
+#10 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+#11 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/vendor/myth/auth/src/Authentication/AuthenticationBase.php(130): CodeIgniter\BaseModel->find()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/vendor/myth/auth/src/Filters/RoleFilter.php(21): Myth\Auth\Authentication\LocalAuthenticator->check()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Filters/Filters.php(184): Myth\Auth\Filters\RoleFilter->before()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+#10 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-07-15 06:23:30 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(563): CodeIgniter\Model->doFind()
+ 5 FCPATH/vendor/myth/auth/src/Authentication/AuthenticationBase.php(130): CodeIgniter\BaseModel->find()
+ 6 FCPATH/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+ 7 FCPATH/vendor/myth/auth/src/Filters/RoleFilter.php(21): Myth\Auth\Authentication\LocalAuthenticator->check()
+ 8 SYSTEMPATH/Filters/Filters.php(184): Myth\Auth\Filters\RoleFilter->before()
+ 9 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

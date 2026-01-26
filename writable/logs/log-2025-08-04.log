@@ -1,0 +1,356 @@
+CRITICAL - 2025-08-04 00:49:12 --> Anda tidak memiliki izin yang memadai untuk mengakses halaman itu.
+in FCPATH/vendor/myth/auth/src/Filters/RoleFilter.php on line 45.
+ 1 SYSTEMPATH/Filters/Filters.php(184): Myth\Auth\Filters\RoleFilter->before()
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-08-04 00:49:48 --> Anda tidak memiliki izin yang memadai untuk mengakses halaman itu.
+in FCPATH/vendor/myth/auth/src/Filters/RoleFilter.php on line 45.
+ 1 SYSTEMPATH/Filters/Filters.php(184): Myth\Auth\Filters\RoleFilter->before()
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-08-04 13:40:43 --> Invalid file: "pages/laporan-pemasukan.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(222): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->koran()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-04 13:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-04 13:41:16 --> Invalid file: "pages/laporan-pemasukan.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(222): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->koran()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-08-04 13:42:58 --> Invalid file: "pages/laporan-pemasukan.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(222): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->koran()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-04 13:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-04 13:43:22 --> Invalid file: "pages/laporan-pemasukan.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(222): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->koran()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-04 13:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 13:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 13:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 14:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 14:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-04 14:28:29 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:28:29 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:28:29 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:28:29 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:28:29 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-04 14:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 14:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 14:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 14:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-04 14:33:26 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:33:26 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:33:26 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:33:26 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:33:26 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-04 14:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 14:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-04 14:33:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:33:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:33:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:33:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:33:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:33:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-04 14:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-04 14:34:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:34:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:34:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:34:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:34:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:34:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-04 14:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 14:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-04 14:34:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:34:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:34:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:34:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:34:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:34:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-04 14:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 14:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-04 14:45:30 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:45:30 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:45:30 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:45:30 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 14:45:30 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-04 14:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 14:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 14:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 14:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 19:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 19:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 20:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 20:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 20:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 20:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 20:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 23:45:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 23:45:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 23:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 23:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 23:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-04 23:45:35 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 23:45:35 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 23:45:35 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 23:45:35 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-04 23:45:35 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-04 23:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 23:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 23:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-04 23:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

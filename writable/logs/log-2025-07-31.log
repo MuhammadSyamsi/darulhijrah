@@ -1,0 +1,1369 @@
+CRITICAL - 2025-07-31 00:29:25 --> Undefined variable $db
+in APPPATH/Controllers/Guru.php on line 173.
+ 1 APPPATH/Controllers/Guru.php(173): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Guru->jadwal()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 00:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 00:29:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:29:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:29:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:29:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:29:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:29:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-31 00:29:40 --> Undefined variable $db
+in APPPATH/Controllers/Guru.php on line 173.
+ 1 APPPATH/Controllers/Guru.php(173): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Guru->jadwal()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 00:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 00:30:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:30:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:30:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:30:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:30:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:30:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-31 00:30:16 --> Undefined variable $jadwalModel
+in APPPATH/Controllers/Guru.php on line 174.
+ 1 APPPATH/Controllers/Guru.php(174): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Guru->jadwal()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 00:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 00:30:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:30:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:30:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:30:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:30:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:30:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-31 00:30:41 --> Undefined constant "App\Controllers\jadwalModel"
+in APPPATH/Controllers/Guru.php on line 173.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Guru->jadwal()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 00:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 00:31:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:31:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:31:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:31:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:31:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:31:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-07-31 00:31:05 --> mysqli_sql_exception: Unknown column 'kelas_id' in 'SELECT' in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Controllers/Guru.php(175): CodeIgniter\Model->__call()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(942): App\Controllers\Guru->jadwal()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-07-31 00:31:05 --> Unknown column 'kelas_id' in 'SELECT'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Guru.php(175): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Guru->jadwal()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 00:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 00:33:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:33:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:33:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:33:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:33:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:33:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 00:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 00:34:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:34:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:34:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:34:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:34:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:34:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-31 00:34:49 --> Undefined variable $db
+in APPPATH/Controllers/Guru.php on line 173.
+ 1 APPPATH/Controllers/Guru.php(173): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Guru->jadwal()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:35:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:35:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:35:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:35:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:35:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:35:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 00:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 00:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 00:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 00:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 00:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 00:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 00:39:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:39:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:39:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:39:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:39:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:39:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 00:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 00:39:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:39:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:39:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:39:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:39:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:39:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-31 00:39:58 --> Undefined variable $db
+in APPPATH/Controllers/Guru.php on line 173.
+ 1 APPPATH/Controllers/Guru.php(173): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Guru->jadwal()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 00:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 00:40:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:40:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:40:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:40:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:40:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:40:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-31 00:40:12 --> Undefined variable $db
+in APPPATH/Controllers/Guru.php on line 173.
+ 1 APPPATH/Controllers/Guru.php(173): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Guru->jadwal()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 00:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 00:42:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:42:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:42:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:42:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:42:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:42:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 00:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 00:42:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:42:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:42:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:42:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:42:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:42:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 00:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 00:44:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:44:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:44:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:44:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:44:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:44:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 00:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 00:46:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:46:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:46:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:46:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:46:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:46:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 00:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 00:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 00:46:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:46:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:46:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:46:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:46:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:46:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 00:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 00:51:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:51:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:51:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:51:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:51:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:51:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 00:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 00:58:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:58:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:58:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:58:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:58:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:58:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 00:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 00:58:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:58:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:58:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:58:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:58:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 00:58:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 00:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 00:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 01:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 02:28:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 02:28:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 02:28:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 02:28:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 02:28:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 02:28:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 02:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 02:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 02:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 02:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 02:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 02:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 02:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 02:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 02:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 02:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 02:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 02:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 02:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 02:50:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 02:50:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 02:50:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 02:50:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 02:50:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 02:50:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 02:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 02:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 02:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 02:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 02:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 02:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 02:53:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 02:53:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 02:53:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 02:53:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 02:53:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 02:53:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 02:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 02:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 02:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 02:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 02:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 02:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 02:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 03:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 03:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 03:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 03:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 03:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 03:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 03:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 03:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 03:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 03:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 03:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 04:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 04:02:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:02:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:02:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:02:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:02:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:02:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 04:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 04:02:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:02:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:02:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:02:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:02:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:02:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 04:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 04:02:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:02:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:02:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:02:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:02:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:02:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 04:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 04:03:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:03:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:03:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:03:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:03:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:03:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 04:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 04:03:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:03:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:03:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:03:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:03:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:03:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:04:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:04:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:04:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:04:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:04:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:04:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 04:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 04:04:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:04:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:04:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:04:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:04:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:04:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 04:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 04:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 04:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 04:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 04:14:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$mapelModel is deprecated in APPPATH/Controllers/Guru.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:14:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$kelasModel is deprecated in APPPATH/Controllers/Guru.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:14:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$hariModel is deprecated in APPPATH/Controllers/Guru.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:14:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$jadwalModel is deprecated in APPPATH/Controllers/Guru.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:14:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$guruMapelModel is deprecated in APPPATH/Controllers/Guru.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 04:14:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Guru::$slotModel is deprecated in APPPATH/Controllers/Guru.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Guru->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-31 12:53:38 --> Anda tidak memiliki izin yang memadai untuk mengakses halaman itu.
+in FCPATH/vendor/myth/auth/src/Filters/RoleFilter.php on line 45.
+ 1 SYSTEMPATH/Filters/Filters.php(184): Myth\Auth\Filters\RoleFilter->before()
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-31 13:44:37 --> syntax error, unexpected identifier "ex", expecting "{"
+in APPPATH/Controllers/Santri.php on line 14.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-31 14:02:14 --> syntax error, unexpected string content "/riwayat-pem"
+in APPPATH/Controllers/Santri.php on line 465.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-31 14:02:14 --> syntax error, unexpected string content "/riwayat-pem"
+in APPPATH/Controllers/Santri.php on line 465.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-31 14:02:14 --> syntax error, unexpected string content "/riwayat-pem"
+in APPPATH/Controllers/Santri.php on line 465.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-31 14:10:54 --> Call to a member function findAll() on array
+in APPPATH/Controllers/Santri.php on line 123.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Santri->psb()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-31 16:12:37 --> syntax error, unexpected token "throw", expecting "function" or "const"
+in APPPATH/Controllers/Page.php on line 395.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 16:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-31 16:13:35 --> syntax error, unexpected token "throw", expecting "function" or "const"
+in APPPATH/Controllers/Page.php on line 395.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 16:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-31 16:17:05 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH/Controllers/Page.php on line 398.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 16:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-31 16:17:21 --> Undefined variable $rekeningList
+in APPPATH/Views/pages/mutasi.php on line 23.
+ 1 APPPATH/Views/pages/mutasi.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Page.php(335): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 16:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-31 16:17:49 --> Undefined variable $rekeningList
+in APPPATH/Views/pages/mutasi.php on line 23.
+ 1 APPPATH/Views/pages/mutasi.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Page.php(335): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 16:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-31 16:17:52 --> Undefined variable $rekeningList
+in APPPATH/Views/pages/mutasi.php on line 23.
+ 1 APPPATH/Views/pages/mutasi.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Page.php(335): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 16:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-31 16:18:27 --> Undefined variable $rekeningList
+in APPPATH/Views/pages/mutasi.php on line 23.
+ 1 APPPATH/Views/pages/mutasi.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Page.php(335): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 16:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-31 16:18:59 --> Undefined variable $rekening
+in APPPATH/Views/pages/mutasi.php on line 23.
+ 1 APPPATH/Views/pages/mutasi.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Page.php(335): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 16:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-31 16:21:16 --> Undefined variable $rekening
+in APPPATH/Views/pages/mutasi.php on line 23.
+ 1 APPPATH/Views/pages/mutasi.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Page.php(335): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 16:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-31 16:24:14 --> Undefined variable $rekening
+in APPPATH/Views/pages/mutasi.php on line 23.
+ 1 APPPATH/Views/pages/mutasi.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Page.php(345): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 16:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-31 16:24:17 --> Undefined variable $rekening
+in APPPATH/Views/pages/mutasi.php on line 23.
+ 1 APPPATH/Views/pages/mutasi.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Page.php(345): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 16:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 16:25:11 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 16:25:11 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 16:25:11 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 16:25:11 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 16:25:11 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 16:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 16:28:08 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 16:28:08 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 16:28:08 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 16:28:08 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 16:28:08 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 16:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 16:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 16:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 16:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 16:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 16:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 16:34:53 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/psb/kwitansi.php on line 210.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/psb/kwitansi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('psb/kwitansi', [], true)
+ 4 APPPATH/Controllers/Psb.php(367): view('psb/kwitansi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Psb->edittung()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psb))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 16:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 16:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-31 16:35:03 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 16:35:03 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 16:35:03 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 16:35:03 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-07-31 16:35:03 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 45.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(345): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-31 16:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-31 16:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,11 @@
+CRITICAL - 2024-07-09 06:56:25 --> Trying to access array offset on value of type null
+in APPPATH\Views\pages\kwitansi.php on line 29.
+ 1 APPPATH\Views\pages\kwitansi.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\sistaff\\app\\Views\\pages\\kwitansi.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sistaff\\app\\Views\\pages\\kwitansi.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/kwitansi', [], true)
+ 5 APPPATH\Controllers\Page.php(340): view('pages/kwitansi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

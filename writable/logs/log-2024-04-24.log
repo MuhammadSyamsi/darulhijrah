@@ -1,0 +1,27 @@
+ERROR - 2024-04-24 03:09:57 --> mysqli_sql_exception: Unknown column 'daftarulang-tdu' in 'field list' in C:\xampp\htdocs\sistaff\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\sistaff\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `status`...', 0)
+#1 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `status`...')
+#2 C:\xampp\htdocs\sistaff\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `status`...')
+#3 C:\xampp\htdocs\sistaff\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `status`...', Array, false)
+#4 C:\xampp\htdocs\sistaff\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistaff\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sistaff\app\Controllers\Psb.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(942): App\Controllers\Psb->index()
+#8 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psb))
+#9 C:\xampp\htdocs\sistaff\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistaff\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-24 03:09:57 --> Unknown column 'daftarulang-tdu' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `status`, count(nama) as jumlah, count(jenjang) as formulir, `daftarulang-tdu` as `terbayar`, `daftarulang`
+FROM `psb`
+WHERE `jenjang` = :jenjang:
+GROUP BY `status`', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Psb.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Psb->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psb))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

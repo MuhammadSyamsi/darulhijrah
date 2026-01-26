@@ -1,0 +1,1309 @@
+ERROR - 2025-08-25 00:28:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:santri`.`spp` = !:
+AND `kelas` IN (7,8,9)' at line 6 in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Controllers/Page.php(233): CodeIgniter\BaseModel->findAll()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(942): App\Controllers\Page->claim_laundry()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-08-25 00:28:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:santri`.`spp` = !:
+AND `kelas` IN (7,8,9)' at line 6
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/Page.php(233): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->claim_laundry()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-08-25 00:29:26 --> mysqli_sql_exception: Unknown column 'santri.spp' in 'WHERE' in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Controllers/Page.php(233): CodeIgniter\BaseModel->findAll()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(942): App\Controllers\Page->claim_laundry()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-08-25 00:29:26 --> Unknown column 'santri.spp' in 'WHERE'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/Page.php(233): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->claim_laundry()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-08-25 00:29:27 --> mysqli_sql_exception: Unknown column 'santri.spp' in 'WHERE' in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Controllers/Page.php(233): CodeIgniter\BaseModel->findAll()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(942): App\Controllers\Page->claim_laundry()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-08-25 00:29:27 --> Unknown column 'santri.spp' in 'WHERE'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/Page.php(233): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->claim_laundry()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-08-25 00:29:29 --> mysqli_sql_exception: Unknown column 'santri.spp' in 'WHERE' in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Controllers/Page.php(233): CodeIgniter\BaseModel->findAll()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(942): App\Controllers\Page->claim_laundry()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-08-25 00:29:29 --> Unknown column 'santri.spp' in 'WHERE'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/Page.php(233): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->claim_laundry()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-08-25 00:29:29 --> mysqli_sql_exception: Unknown column 'santri.spp' in 'WHERE' in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Controllers/Page.php(233): CodeIgniter\BaseModel->findAll()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(942): App\Controllers\Page->claim_laundry()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-08-25 00:29:29 --> Unknown column 'santri.spp' in 'WHERE'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/Page.php(233): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->claim_laundry()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-08-25 00:29:30 --> mysqli_sql_exception: Unknown column 'santri.spp' in 'WHERE' in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Controllers/Page.php(233): CodeIgniter\BaseModel->findAll()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(942): App\Controllers\Page->claim_laundry()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-08-25 00:29:30 --> Unknown column 'santri.spp' in 'WHERE'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/Page.php(233): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->claim_laundry()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-08-25 00:29:31 --> mysqli_sql_exception: Unknown column 'santri.spp' in 'WHERE' in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Controllers/Page.php(233): CodeIgniter\BaseModel->findAll()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(942): App\Controllers\Page->claim_laundry()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-08-25 00:29:31 --> Unknown column 'santri.spp' in 'WHERE'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/Page.php(233): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->claim_laundry()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-08-25 00:30:33 --> Call to undefined method App\Models\TransferModel::whereNot
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Page.php(231): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->claim_laundry()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-08-25 00:30:34 --> Call to undefined method App\Models\TransferModel::whereNot
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Page.php(231): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->claim_laundry()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-08-25 00:30:36 --> Call to undefined method App\Models\TransferModel::whereNot
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Page.php(231): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->claim_laundry()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-08-25 00:32:47 --> Call to undefined method App\Models\TransferModel::whereNot
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Page.php(230): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->claim_laundry()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-08-25 00:32:48 --> Call to undefined method App\Models\TransferModel::whereNot
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Page.php(230): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->claim_laundry()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-08-25 00:33:19 --> Call to undefined method App\Models\TransferModel::whereNot
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Page.php(230): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->claim_laundry()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-08-25 00:33:20 --> Call to undefined method App\Models\TransferModel::whereNot
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Page.php(230): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->claim_laundry()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-08-25 00:33:21 --> Call to undefined method App\Models\TransferModel::whereNot
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Page.php(230): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->claim_laundry()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-08-25 00:33:22 --> Call to undefined method App\Models\TransferModel::whereNot
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Page.php(230): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->claim_laundry()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-08-25 00:33:47 --> Call to undefined method App\Models\TransferModel::whereNot
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Page.php(230): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->claim_laundry()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-25 00:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-25 00:35:45 --> Call to undefined method App\Models\TransferModel::whereNot
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Page.php(230): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->claim_laundry()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-25 00:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 00:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 00:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 00:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 00:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 00:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-25 02:25:51 --> Call to a member function select() on array
+in APPPATH/Controllers/Saku.php on line 232.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Saku->laundry()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-25 02:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-25 02:28:28 --> Call to a member function where() on array
+in APPPATH/Controllers/Saku.php on line 232.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Saku->laundry()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-25 02:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-25 02:29:40 --> mysqli_sql_exception: Unknown column 'ket_16' in 'WHERE' in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Controllers/Saku.php(234): CodeIgniter\Model->__call()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(942): App\Controllers\Saku->laundry()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-08-25 02:29:40 --> Unknown column 'ket_16' in 'WHERE'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Saku.php(234): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Saku->laundry()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-25 02:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-25 02:30:18 --> mysqli_sql_exception: Unknown column 'ket_16' in 'WHERE' in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Controllers/Saku.php(234): CodeIgniter\Model->__call()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(942): App\Controllers\Saku->laundry()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-08-25 02:30:18 --> Unknown column 'ket_16' in 'WHERE'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Saku.php(234): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Saku->laundry()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-25 02:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-25 02:30:25 --> mysqli_sql_exception: Unknown column 'ket_16' in 'WHERE' in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Controllers/Saku.php(234): CodeIgniter\Model->__call()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(942): App\Controllers\Saku->laundry()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-08-25 02:30:25 --> Unknown column 'ket_16' in 'WHERE'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Saku.php(234): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Saku->laundry()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-25 02:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-25 02:30:27 --> mysqli_sql_exception: Unknown column 'ket_16' in 'WHERE' in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Controllers/Saku.php(234): CodeIgniter\Model->__call()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(942): App\Controllers\Saku->laundry()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-08-25 02:30:27 --> Unknown column 'ket_16' in 'WHERE'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Saku.php(234): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Saku->laundry()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-25 02:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-25 02:30:39 --> mysqli_sql_exception: Unknown column 'ket_16' in 'WHERE' in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Controllers/Saku.php(234): CodeIgniter\Model->__call()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(942): App\Controllers\Saku->laundry()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-08-25 02:30:39 --> Unknown column 'ket_16' in 'WHERE'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Saku.php(234): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Saku->laundry()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-25 02:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-25 02:30:41 --> mysqli_sql_exception: Unknown column 'ket_16' in 'WHERE' in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Controllers/Saku.php(234): CodeIgniter\Model->__call()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(942): App\Controllers\Saku->laundry()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-08-25 02:30:41 --> Unknown column 'ket_16' in 'WHERE'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Saku.php(234): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Saku->laundry()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-25 02:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-25 02:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 02:56:32 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-25 02:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 02:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 05:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 05:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 05:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 05:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 05:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 05:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 05:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 05:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 05:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 06:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 06:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 06:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 78.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 132.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-25 06:03:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH/Views/pages/mutasi.php on line 186.
+ 1 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/mutasi.php')
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('pages/mutasi', [], true)
+ 4 APPPATH/Controllers/Page.php(478): view('pages/mutasi', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->mutasi()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-25 06:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 06:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 06:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 06:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 06:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 06:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 06:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 06:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 06:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 06:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 06:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 06:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 06:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 07:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 07:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 07:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 07:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 07:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 07:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 07:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 07:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 09:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-25 09:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

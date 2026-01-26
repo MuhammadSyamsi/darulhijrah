@@ -1,0 +1,22 @@
+CRITICAL - 2024-07-31 04:31:45 --> Undefined variable $fix
+in APPPATH\Views\psb\home.php on line 27.
+ 1 APPPATH\Views\psb\home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fix', 'C:\\xampp\\htdocs\\dummy\\app\\Views\\psb\\home.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dummy\\app\\Views\\psb\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('psb/home', [], true)
+ 5 APPPATH\Controllers\Psb.php(29): view('psb/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Psb->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psb))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-31 04:31:51 --> Undefined variable $fix
+in APPPATH\Views\psb\home.php on line 27.
+ 1 APPPATH\Views\psb\home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fix', 'C:\\xampp\\htdocs\\dummy\\app\\Views\\psb\\home.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dummy\\app\\Views\\psb\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('psb/home', [], true)
+ 5 APPPATH\Controllers\Psb.php(29): view('psb/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Psb->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psb))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

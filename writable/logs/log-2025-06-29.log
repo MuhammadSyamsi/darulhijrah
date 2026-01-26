@@ -1,0 +1,384 @@
+CRITICAL - 2025-06-29 00:00:28 --> Object of type App\Models\DetailModel is not callable
+in APPPATH/Controllers/Home.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 00:00:34 --> Object of type App\Models\DetailModel is not callable
+in APPPATH/Controllers/Home.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 00:01:21 --> Object of type App\Models\DetailModel is not callable
+in APPPATH/Controllers/Home.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 00:01:22 --> Object of type App\Models\DetailModel is not callable
+in APPPATH/Controllers/Home.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 00:01:45 --> Object of type App\Models\DetailModel is not callable
+in APPPATH/Controllers/Home.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 00:01:46 --> Object of type App\Models\DetailModel is not callable
+in APPPATH/Controllers/Home.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 00:03:49 --> Object of type App\Models\DetailModel is not callable
+in APPPATH/Controllers/Home.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 00:03:50 --> Object of type App\Models\DetailModel is not callable
+in APPPATH/Controllers/Home.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 00:04:10 --> Object of type App\Models\DetailModel is not callable
+in APPPATH/Controllers/Home.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 00:04:11 --> Object of type App\Models\DetailModel is not callable
+in APPPATH/Controllers/Home.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 00:04:28 --> Undefined variable $psbmodel
+in APPPATH/Controllers/Home.php on line 23.
+ 1 APPPATH/Controllers/Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 00:04:29 --> Undefined variable $psbmodel
+in APPPATH/Controllers/Home.php on line 23.
+ 1 APPPATH/Controllers/Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 00:04:30 --> Undefined variable $psbmodel
+in APPPATH/Controllers/Home.php on line 23.
+ 1 APPPATH/Controllers/Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 00:04:44 --> Undefined variable $psbmodel
+in APPPATH/Controllers/Home.php on line 23.
+ 1 APPPATH/Controllers/Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 00:04:45 --> Undefined variable $psbmodel
+in APPPATH/Controllers/Home.php on line 23.
+ 1 APPPATH/Controllers/Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 00:04:45 --> Undefined variable $psbmodel
+in APPPATH/Controllers/Home.php on line 23.
+ 1 APPPATH/Controllers/Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 00:04:46 --> Undefined variable $psbmodel
+in APPPATH/Controllers/Home.php on line 23.
+ 1 APPPATH/Controllers/Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 00:04:47 --> Undefined variable $psbmodel
+in APPPATH/Controllers/Home.php on line 23.
+ 1 APPPATH/Controllers/Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 00:04:48 --> Undefined variable $psbmodel
+in APPPATH/Controllers/Home.php on line 23.
+ 1 APPPATH/Controllers/Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 00:04:49 --> Undefined variable $psbmodel
+in APPPATH/Controllers/Home.php on line 23.
+ 1 APPPATH/Controllers/Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 00:04:57 --> Undefined variable $psbmodel
+in APPPATH/Controllers/Home.php on line 23.
+ 1 APPPATH/Controllers/Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 00:51:27 --> Undefined variable $psbmodel
+in APPPATH/Controllers/Home.php on line 23.
+ 1 APPPATH/Controllers/Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 01:02:47 --> Undefined variable $psbmodel
+in APPPATH/Controllers/Home.php on line 23.
+ 1 APPPATH/Controllers/Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 03:59:19 --> Undefined variable $datapsb
+in APPPATH/Controllers/Home.php on line 59.
+ 1 APPPATH/Controllers/Home.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 04:01:01 --> Undefined variable $datapsb
+in APPPATH/Controllers/Home.php on line 59.
+ 1 APPPATH/Controllers/Home.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 04:01:23 --> Undefined variable $datapsb
+in APPPATH/Controllers/Home.php on line 59.
+ 1 APPPATH/Controllers/Home.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 04:01:24 --> Undefined variable $datapsb
+in APPPATH/Controllers/Home.php on line 59.
+ 1 APPPATH/Controllers/Home.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 04:12:28 --> Undefined variable $datapsb
+in APPPATH/Controllers/Home.php on line 59.
+ 1 APPPATH/Controllers/Home.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 04:16:56 --> Unmatched ')'
+in APPPATH/Views/pages/home.php on line 7.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(67): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 04:16:59 --> Unmatched ')'
+in APPPATH/Views/pages/home.php on line 7.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(67): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 04:27:28 --> syntax error, unexpected token ":", expecting "," or ";"
+in APPPATH/Views/pages/home.php on line 7.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(67): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 04:38:28 --> syntax error, unexpected single-quoted string "<br/>", expecting "," or ";"
+in APPPATH/Views/pages/home.php on line 7.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(67): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 04:38:37 --> syntax error, unexpected single-quoted string "<br/>", expecting "," or ";"
+in APPPATH/Views/pages/home.php on line 7.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(67): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 04:38:49 --> Undefined array key "tunggakandu"
+in APPPATH/Views/pages/home.php on line 7.
+ 1 APPPATH/Views/pages/home.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Views/pages/home.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(67): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-06-29 04:53:19 --> mysqli_sql_exception: Unknown column 'totaltunggakan' in 'SELECT' in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Controllers/Home.php(61): CodeIgniter\BaseModel->findAll()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(942): App\Controllers\Home->index()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-06-29 04:53:19 --> Unknown column 'totaltunggakan' in 'SELECT'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/Home.php(61): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-06-29 04:53:21 --> mysqli_sql_exception: Unknown column 'totaltunggakan' in 'SELECT' in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Controllers/Home.php(61): CodeIgniter\BaseModel->findAll()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(942): App\Controllers\Home->index()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-06-29 04:53:21 --> Unknown column 'totaltunggakan' in 'SELECT'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/Home.php(61): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-06-29 05:09:22 --> mysqli_sql_exception: Unknown column 'totaltunggakan - totalbayar' in 'SELECT' in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/app/Controllers/Home.php(61): CodeIgniter\BaseModel->findAll()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(942): App\Controllers\Home->index()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-06-29 05:09:22 --> Unknown column 'totaltunggakan - totalbayar' in 'SELECT'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/Home.php(61): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 05:43:50 --> Array callback must have exactly two elements
+in APPPATH/Views/pages/home.php on line 17.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(69): view()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 05:43:52 --> Array callback must have exactly two elements
+in APPPATH/Views/pages/home.php on line 17.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(69): view()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 05:48:49 --> Array callback must have exactly two elements
+in APPPATH/Views/pages/home.php on line 16.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(69): view()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 05:48:50 --> Array callback must have exactly two elements
+in APPPATH/Views/pages/home.php on line 16.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(69): view()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 05:49:09 --> Array callback must have exactly two elements
+in APPPATH/Views/pages/home.php on line 16.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(69): view()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 05:49:51 --> Array callback must have exactly two elements
+in APPPATH/Views/pages/home.php on line 16.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(69): view()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-29 05:56:27 --> Array callback must have exactly two elements
+in APPPATH/Views/pages/home.php on line 16.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(69): view()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

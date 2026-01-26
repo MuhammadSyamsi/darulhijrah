@@ -1,0 +1,24 @@
+CRITICAL - 2024-05-15 04:26:19 --> Call to undefined function App\Controllers\Api\format_rupiah()
+in APPPATH\Controllers\Api\Kedua.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Api\Kedua->show('001151340')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kedua))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 04:26:21 --> Call to undefined function App\Controllers\Api\format_rupiah()
+in APPPATH\Controllers\Api\Kedua.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Api\Kedua->show('006100')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Kedua))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 04:28:54 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Helpers\my_helpers.php on line 3.
+ 1 APPPATH\Helpers\my_helpers.php(3): number_format('<div class="col-lg-2" id="lastnom3" name="lastnom3" disabled></div>', 0, ',', '.')
+ 2 APPPATH\Views\pages\insert.php(106): format_rupiah('<div class="col-lg-2" id="lastnom3" name="lastnom3" disabled></div>')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sistaff\\app\\Views\\pages\\insert.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/insert', [], true)
+ 6 APPPATH\Controllers\Page.php(57): view('pages/insert', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->tambah()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

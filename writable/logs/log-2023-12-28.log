@@ -1,0 +1,12 @@
+CRITICAL - 2023-12-28 04:12:34 --> App\Controllers\Page::keuangan(): Return value must be of type string, none returned
+in APPPATH\Controllers\Page.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->keuangan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-28 04:12:34 --> App\Controllers\Page::keuangan(): Return value must be of type string, none returned
+in APPPATH\Controllers\Page.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->keuangan()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

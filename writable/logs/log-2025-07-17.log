@@ -1,0 +1,147 @@
+CRITICAL - 2025-07-17 03:47:07 --> syntax error, unexpected identifier "nama", expecting "," or ";"
+in APPPATH/Views/guru/insert.php on line 31.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Guru.php(19): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Guru->tambah()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 03:54:01 --> syntax error, unexpected token ";"
+in APPPATH/Views/guru/insert.php on line 30.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Guru.php(20): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Guru->tambah()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 03:54:27 --> syntax error, unexpected token ";"
+in APPPATH/Views/guru/insert.php on line 30.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Guru.php(20): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Guru->tambah()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 03:55:18 --> syntax error, unexpected token ";"
+in APPPATH/Views/guru/insert.php on line 30.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Guru.php(20): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Guru->tambah()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 15:18:11 --> explode(): Argument #2 ($string) must be of type string, array given
+in SYSTEMPATH/Router/Router.php on line 475.
+ 1 SYSTEMPATH/Router/Router.php(475): explode()
+ 2 SYSTEMPATH/Router/Router.php(186): CodeIgniter\Router\Router->checkRoutes()
+ 3 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 15:24:39 --> Undefined variable $id
+in APPPATH/Controllers/Api/Home.php on line 23.
+ 1 APPPATH/Controllers/Api/Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Api\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 17:53:37 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php on line 871
+in SYSTEMPATH/Database/BaseBuilder.php on line 983.
+ 1 SYSTEMPATH/Model.php(871): CodeIgniter\Database\BaseBuilder->like()
+ 2 APPPATH/Controllers/Api/Home.php(27): CodeIgniter\Model->__call()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Api\Home->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 19:04:34 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php on line 871
+in SYSTEMPATH/Database/BaseBuilder.php on line 983.
+ 1 SYSTEMPATH/Model.php(871): CodeIgniter\Database\BaseBuilder->like()
+ 2 APPPATH/Controllers/Api/Home.php(27): CodeIgniter\Model->__call()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Api\Home->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 19:04:41 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php on line 871
+in SYSTEMPATH/Database/BaseBuilder.php on line 983.
+ 1 SYSTEMPATH/Model.php(871): CodeIgniter\Database\BaseBuilder->like()
+ 2 APPPATH/Controllers/Api/Home.php(27): CodeIgniter\Model->__call()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Api\Home->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 19:04:45 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php on line 871
+in SYSTEMPATH/Database/BaseBuilder.php on line 983.
+ 1 SYSTEMPATH/Model.php(871): CodeIgniter\Database\BaseBuilder->like()
+ 2 APPPATH/Controllers/Api/Home.php(27): CodeIgniter\Model->__call()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Api\Home->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 19:04:46 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php on line 871
+in SYSTEMPATH/Database/BaseBuilder.php on line 983.
+ 1 SYSTEMPATH/Model.php(871): CodeIgniter\Database\BaseBuilder->like()
+ 2 APPPATH/Controllers/Api/Home.php(27): CodeIgniter\Model->__call()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Api\Home->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 19:04:48 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php on line 871
+in SYSTEMPATH/Database/BaseBuilder.php on line 983.
+ 1 SYSTEMPATH/Model.php(871): CodeIgniter\Database\BaseBuilder->like()
+ 2 APPPATH/Controllers/Api/Home.php(27): CodeIgniter\Model->__call()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Api\Home->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 19:04:48 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php on line 871
+in SYSTEMPATH/Database/BaseBuilder.php on line 983.
+ 1 SYSTEMPATH/Model.php(871): CodeIgniter\Database\BaseBuilder->like()
+ 2 APPPATH/Controllers/Api/Home.php(27): CodeIgniter\Model->__call()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Api\Home->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 19:04:58 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php on line 871
+in SYSTEMPATH/Database/BaseBuilder.php on line 983.
+ 1 SYSTEMPATH/Model.php(871): CodeIgniter\Database\BaseBuilder->like()
+ 2 APPPATH/Controllers/Api/Home.php(27): CodeIgniter\Model->__call()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Api\Home->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 19:05:02 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php on line 871
+in SYSTEMPATH/Database/BaseBuilder.php on line 983.
+ 1 SYSTEMPATH/Model.php(871): CodeIgniter\Database\BaseBuilder->like()
+ 2 APPPATH/Controllers/Api/Home.php(27): CodeIgniter\Model->__call()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Api\Home->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 19:05:05 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php on line 871
+in SYSTEMPATH/Database/BaseBuilder.php on line 983.
+ 1 SYSTEMPATH/Model.php(871): CodeIgniter\Database\BaseBuilder->like()
+ 2 APPPATH/Controllers/Api/Home.php(27): CodeIgniter\Model->__call()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Api\Home->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 19:05:07 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php on line 871
+in SYSTEMPATH/Database/BaseBuilder.php on line 983.
+ 1 SYSTEMPATH/Model.php(871): CodeIgniter\Database\BaseBuilder->like()
+ 2 APPPATH/Controllers/Api/Home.php(27): CodeIgniter\Model->__call()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Api\Home->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-17 19:36:44 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/system/Model.php on line 871
+in SYSTEMPATH/Database/BaseBuilder.php on line 983.
+ 1 SYSTEMPATH/Model.php(871): CodeIgniter\Database\BaseBuilder->like()
+ 2 APPPATH/Controllers/Api/Home.php(27): CodeIgniter\Model->__call()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Api\Home->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

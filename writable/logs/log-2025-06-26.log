@@ -1,0 +1,146 @@
+CRITICAL - 2025-06-26 00:07:29 --> Undefined array key "tunggakanspp"
+in APPPATH/Views/psb/kwitansi.php on line 230.
+ 1 APPPATH/Views/psb/kwitansi.php(230): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/app/Views/psb/kwitansi.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Psb.php(368): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Psb->edittung()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-26 00:10:18 --> syntax error, unexpected variable "$datsan"
+in APPPATH/Views/pages/kwitansi.php on line 206.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Page.php(336): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Page->edit()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-26 00:40:52 --> View themes, no current section.
+in SYSTEMPATH/View/View.php on line 425.
+ 1 VENDORPATH/myth/auth/src/Views/login.php(153): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/vendor/myth/auth/src/Views/login.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 VENDORPATH/myth/auth/src/Controllers/AuthController.php(412): view()
+ 6 VENDORPATH/myth/auth/src/Controllers/AuthController.php(58): Myth\Auth\Controllers\AuthController->_render()
+ 7 SYSTEMPATH/CodeIgniter.php(942): Myth\Auth\Controllers\AuthController->login()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-26 18:05:53 --> Class "SantriModel" not found
+in APPPATH/Views/alumni/kwitansi.php on line 7.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Alumni.php(74): view()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Alumni->save()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-06-26 18:08:25 --> mysqli_sql_exception: Duplicate entry '3415' for key 'PRIMARY' in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/BaseModel.php(788): CodeIgniter\Model->doInsert()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Model.php(715): CodeIgniter\BaseModel->insert()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/app/Controllers/Alumni.php(29): CodeIgniter\Model->insert()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/CodeIgniter.php(942): App\Controllers\Alumni->save()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-06-26 18:08:25 --> Duplicate entry '3415' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/Alumni.php(29): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Alumni->save()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-06-26 18:08:29 --> mysqli_sql_exception: Duplicate entry '3415' for key 'PRIMARY' in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/BaseModel.php(788): CodeIgniter\Model->doInsert()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Model.php(715): CodeIgniter\BaseModel->insert()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/app/Controllers/Alumni.php(29): CodeIgniter\Model->insert()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/CodeIgniter.php(942): App\Controllers\Alumni->save()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-06-26 18:08:29 --> Duplicate entry '3415' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/Alumni.php(29): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Alumni->save()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-06-26 18:08:53 --> mysqli_sql_exception: Duplicate entry '3415' for key 'PRIMARY' in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/BaseModel.php(788): CodeIgniter\Model->doInsert()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Model.php(715): CodeIgniter\BaseModel->insert()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/app/Controllers/Alumni.php(29): CodeIgniter\Model->insert()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/CodeIgniter.php(942): App\Controllers\Alumni->save()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-06-26 18:08:53 --> Duplicate entry '3415' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/Alumni.php(29): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Alumni->save()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-06-26 18:08:59 --> mysqli_sql_exception: Duplicate entry '3415' for key 'PRIMARY' in /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/BaseModel.php(788): CodeIgniter\Model->doInsert()
+#6 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/Model.php(715): CodeIgniter\BaseModel->insert()
+#7 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/app/Controllers/Alumni.php(29): CodeIgniter\Model->insert()
+#8 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/CodeIgniter.php(942): App\Controllers\Alumni->save()
+#9 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u927597906/domains/51-574-ff.darulhijrah.in/public_html/sistaff/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-06-26 18:08:59 --> Duplicate entry '3415' for key 'PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/Alumni.php(29): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Alumni->save()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

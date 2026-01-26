@@ -1,0 +1,149 @@
+CRITICAL - 2024-01-12 04:31:57 --> Cannot use object of type App\Models\SantriModel as array
+in APPPATH\Controllers\Page.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sistaff\\public\\index.php')
+CRITICAL - 2024-01-12 05:20:30 --> Object of type App\Models\SantriModel is not callable
+in APPPATH\Controllers\Page.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sistaff\\public\\index.php')
+CRITICAL - 2024-01-12 05:26:12 --> Cannot use object of type App\Models\SantriModel as array
+in APPPATH\Controllers\Page.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sistaff\\public\\index.php')
+CRITICAL - 2024-01-12 05:26:34 --> Cannot use object of type App\Models\SantriModel as array
+in APPPATH\Controllers\Page.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sistaff\\public\\index.php')
+CRITICAL - 2024-01-12 05:34:35 --> Cannot use object of type App\Models\SantriModel as array
+in APPPATH\Controllers\Page.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sistaff\\public\\index.php')
+CRITICAL - 2024-01-12 05:58:36 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Page.php on line 54.
+ 1 APPPATH\Controllers\Page.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\sistaff\\app\\Controllers\\Page.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sistaff\\public\\index.php')
+CRITICAL - 2024-01-12 06:03:45 --> Call to undefined function App\Controllers\getPost()
+in APPPATH\Controllers\Page.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sistaff\\public\\index.php')
+CRITICAL - 2024-01-12 06:09:30 --> Cannot use object of type App\Models\TransferModel as array
+in APPPATH\Controllers\Page.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sistaff\\public\\index.php')
+CRITICAL - 2024-01-12 06:10:43 --> Undefined variable $updateSpp
+in APPPATH\Controllers\Page.php on line 55.
+ 1 APPPATH\Controllers\Page.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $updateSpp', 'C:\\xampp\\htdocs\\sistaff\\app\\Controllers\\Page.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sistaff\\public\\index.php')
+CRITICAL - 2024-01-12 06:33:40 --> Undefined array key "tunggakanspp"
+in APPPATH\Controllers\Page.php on line 53.
+ 1 APPPATH\Controllers\Page.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tunggakanspp"', 'C:\\xampp\\htdocs\\sistaff\\app\\Controllers\\Page.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sistaff\\public\\index.php')
+CRITICAL - 2024-01-12 06:38:59 --> Undefined array key "tunggakanspp"
+in APPPATH\Controllers\Page.php on line 53.
+ 1 APPPATH\Controllers\Page.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tunggakanspp"', 'C:\\xampp\\htdocs\\sistaff\\app\\Controllers\\Page.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sistaff\\public\\index.php')
+CRITICAL - 2024-01-12 07:20:15 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Controllers\Page.php on line 61.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\sistaff\\app\\Controllers\\Page.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Page')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Page')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Page', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sistaff\\public\\index.php')
+CRITICAL - 2024-01-12 07:20:27 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, int returned
+in SYSTEMPATH\BaseModel.php on line 1752.
+ 1 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(99899, 'update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], 99899)
+ 3 APPPATH\Controllers\Page.php(56): CodeIgniter\Model->update('tunggakanspp', 99899)
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->save()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sistaff\\public\\index.php')
+CRITICAL - 2024-01-12 07:21:21 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, int returned
+in SYSTEMPATH\BaseModel.php on line 1752.
+ 1 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(99899, 'update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], 99899)
+ 3 APPPATH\Controllers\Page.php(55): CodeIgniter\Model->update('tunggakanspp', 99899)
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->save()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sistaff\\public\\index.php')
+CRITICAL - 2024-01-12 07:22:43 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, int returned
+in SYSTEMPATH\BaseModel.php on line 1752.
+ 1 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(99899, 'update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], 99899)
+ 3 APPPATH\Controllers\Page.php(55): CodeIgniter\Model->update('tunggakanspp', 99899)
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->save()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sistaff\\public\\index.php')
+CRITICAL - 2024-01-12 11:43:50 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, int returned
+in SYSTEMPATH\BaseModel.php on line 1752.
+ 1 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(99899, 'update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], 99899)
+ 3 APPPATH\Controllers\Page.php(55): CodeIgniter\Model->update('tunggakanspp', 99899)
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->save()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-12 11:54:38 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Page.php(55): CodeIgniter\Model->update('nisn', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->save()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-12 11:56:18 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1726.
+ 1 SYSTEMPATH\BaseModel.php(1726): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Page.php(55): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->save()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

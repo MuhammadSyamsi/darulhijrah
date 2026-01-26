@@ -1,0 +1,23 @@
+CRITICAL - 2024-01-22 19:51:20 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\pages\kwitansi.php on line 73.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/kwitansi', [], true)
+ 3 APPPATH\Controllers\Page.php(89): view('pages/kwitansi')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->save()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 22:28:22 --> Call to undefined method App\Models\SantriModel::setActiveSheetIndex
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Page.php(35): CodeIgniter\Model->__call('setActiveSheetIndex', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->keuangan()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 22:30:29 --> Call to undefined method App\Models\SantriModel::setActiveSheetIndex
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Page.php(36): CodeIgniter\Model->__call('setActiveSheetIndex', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->keuangan()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

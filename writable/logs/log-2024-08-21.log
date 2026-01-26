@@ -1,0 +1,26 @@
+ERROR - 2024-08-21 03:28:14 --> mysqli_sql_exception: FUNCTION dummy.sumsum does not exist in C:\xampp\htdocs\dummy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\dummy\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT sumsum(t...', 0)
+#1 C:\xampp\htdocs\dummy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sumsum(t...')
+#2 C:\xampp\htdocs\dummy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sumsum(t...')
+#3 C:\xampp\htdocs\dummy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT sumsum(t...', Array, false)
+#4 C:\xampp\htdocs\dummy\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dummy\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\dummy\app\Controllers\Page.php(27): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\dummy\system\CodeIgniter.php(942): App\Controllers\Page->keuangan()
+#8 C:\xampp\htdocs\dummy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#9 C:\xampp\htdocs\dummy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\dummy\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-21 03:28:14 --> FUNCTION dummy.sumsum does not exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT sumsum(tunggakandu+tunggakanspp+tunggakantl) as nilai
+FROM `alumni`
+WHERE `kelas` = :kelas:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Page.php(27): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->keuangan()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

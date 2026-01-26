@@ -1,0 +1,21 @@
+CRITICAL - 2024-07-30 06:13:43 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Helpers\my_helpers.php on line 3.
+ 1 APPPATH\Helpers\my_helpers.php(3): number_format('diterima', 0, ',', '.')
+ 2 APPPATH\Views\psb\home.php(71): format_rupiah('diterima')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\dummy\\app\\Views\\psb\\home.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('psb/home', [], true)
+ 6 APPPATH\Controllers\Psb.php(29): view('psb/home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Psb->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psb))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-30 06:24:02 --> whereIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 939.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(826): CodeIgniter\Database\BaseBuilder->_whereIn('status', 'diterima', false, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->whereIn('status', 'diterima')
+ 3 APPPATH\Controllers\Psb.php(42): CodeIgniter\Model->__call('whereIn', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Psb->mts()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psb))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

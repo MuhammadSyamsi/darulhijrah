@@ -1,0 +1,21 @@
+CRITICAL - 2024-01-19 21:13:16 --> Undefined variable $cari
+in APPPATH\Views\pages\insert.php on line 18.
+ 1 APPPATH\Views\pages\insert.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cari', 'C:\\xampp\\htdocs\\sistaff\\app\\Views\\pages\\insert.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\sistaff\\app\\Views\\pages\\insert.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/insert', [], true)
+ 5 APPPATH\Controllers\Page.php(25): view('pages/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 21:20:04 --> Cannot access offset of type string on string
+in APPPATH\Views\pages\insert.php on line 26.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pages/insert', [], true)
+ 4 APPPATH\Controllers\Page.php(23): view('pages/insert')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Page->tambah()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

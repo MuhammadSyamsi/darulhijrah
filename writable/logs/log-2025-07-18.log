@@ -1,0 +1,6 @@
+CRITICAL - 2025-07-18 00:19:02 --> Declaration of App\Controllers\Api\Kedua::show($nisn) must be compatible with CodeIgniter\RESTful\ResourceController::show($id = null)
+in APPPATH/Controllers/Api/Kedua.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-07-18 00:19:45 --> Declaration of App\Controllers\Api\Kedua::show($nisn) must be compatible with CodeIgniter\RESTful\ResourceController::show($id = null)
+in APPPATH/Controllers/Api/Kedua.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
