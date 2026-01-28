@@ -187,8 +187,8 @@
             <a href="<?= base_url('alumni') ?>" class="p-3 bg-gray-50 rounded-xl text-center shadow">Alumni</a>
             <a href="<?= base_url('checkin') ?>" class="p-3 bg-gray-50 rounded-xl text-center shadow">Check-in</a>
 
-            <a href="<?= base_url('komitmen-pembayaran') ?>"
-               class="col-span-2 p-3 bg-gray-50 rounded-xl text-center shadow">Komitmen Pembayaran</a>
+            <a href="<?= base_url('kewajiban') ?>"
+               class="col-span-2 p-3 bg-gray-50 rounded-xl text-center shadow">Statu Kewajiban</a>
         </div>
     </div>
 </div>

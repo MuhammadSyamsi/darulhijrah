@@ -200,4 +200,18 @@ $routes->group('validasi', ['filter' => 'role:superadmin,musrif'], function ($ro
     $routes->get('jadwal/(:num)', 'ValidasiController::jadwalByHari/$1'); // Tampilkan jadwal per hari (id hari)
 });
 
+// ---------------- menu baru tag kewajiban -----------------
+$routes->group('kewajiban', function ($routes) {
+    $routes->get('/', 'KewajibanController::index');
 
+    $routes->get('kelas', 'KewajibanController::kelas');
+    $routes->get('list/(:segment)', 'KewajibanController::listByKelas/$1');
+
+    $routes->post('store-massal', 'KewajibanController::storeMassal');
+
+    $routes->delete('delete/(:num)', 'KewajibanController::delete/$1');
+    $routes->get('riwayat/(:segment)', 'KewajibanController::riwayat/$1');
+    $routes->put('update-status/(:num)', 'KewajibanController::updateStatus/$1');
+    $routes->put('update-status-massal', 'KewajibanController::updateStatusMassal');
+    $routes->get('download-csv', 'KewajibanController::downloadCsv');
+});
