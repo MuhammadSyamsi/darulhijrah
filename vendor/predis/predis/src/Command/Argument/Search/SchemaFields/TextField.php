@@ -4,7 +4,7 @@
  * This file is part of the Predis package.
  *
  * (c) 2009-2020 Daniele Alessandri
- * (c) 2021-2025 Till Krüss
+ * (c) 2021-2023 Till Krüss
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -23,8 +23,6 @@ class TextField extends AbstractField
      * @param string      $phonetic
      * @param int         $weight
      * @param bool        $withSuffixTrie
-     * @param bool        $allowsEmpty
-     * @param bool        $allowsMissing
      */
     public function __construct(
         string $identifier,
@@ -34,11 +32,9 @@ class TextField extends AbstractField
         bool $noStem = false,
         string $phonetic = '',
         int $weight = 1,
-        bool $withSuffixTrie = false,
-        bool $allowsEmpty = false,
-        bool $allowsMissing = false
+        bool $withSuffixTrie = false
     ) {
-        $this->setCommonOptions('TEXT', $identifier, $alias, $sortable, $noIndex, $allowsMissing);
+        $this->setCommonOptions('TEXT', $identifier, $alias, $sortable, $noIndex);
 
         if ($noStem) {
             $this->fieldArguments[] = 'NOSTEM';
@@ -56,10 +52,6 @@ class TextField extends AbstractField
 
         if ($withSuffixTrie) {
             $this->fieldArguments[] = 'WITHSUFFIXTRIE';
-        }
-
-        if ($allowsEmpty) {
-            $this->fieldArguments[] = 'INDEXEMPTY';
         }
     }
 }

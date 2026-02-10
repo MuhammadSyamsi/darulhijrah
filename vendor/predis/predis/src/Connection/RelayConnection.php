@@ -4,7 +4,7 @@
  * This file is part of the Predis package.
  *
  * (c) 2009-2020 Daniele Alessandri
- * (c) 2021-2025 Till Krüss
+ * (c) 2021-2023 Till Krüss
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -16,7 +16,6 @@ use InvalidArgumentException;
 use Predis\ClientException;
 use Predis\Command\CommandInterface;
 use Predis\NotSupportedException;
-use Predis\Response\ErrorInterface as ErrorResponseInterface;
 use Predis\Response\ServerException;
 use Relay\Exception as RelayException;
 use Relay\Relay;
@@ -57,7 +56,7 @@ class RelayConnection extends StreamConnection
     /**
      * The Relay instance.
      *
-     * @var Relay
+     * @var \Relay\Relay
      */
     protected $client;
 
@@ -151,7 +150,7 @@ class RelayConnection extends StreamConnection
     /**
      * Creates a new instance of the client.
      *
-     * @return Relay
+     * @return \Relay\Relay
      */
     private function createClient()
     {
@@ -189,7 +188,7 @@ class RelayConnection extends StreamConnection
     /**
      * Returns the underlying client.
      *
-     * @return Relay
+     * @return \Relay\Relay
      */
     public function getClient()
     {
@@ -199,13 +198,9 @@ class RelayConnection extends StreamConnection
     /**
      * {@inheritdoc}
      */
-    public function getIdentifier()
+    protected function getIdentifier()
     {
-        try {
-            return $this->client->endpointId();
-        } catch (RelayException $ex) {
-            return parent::getIdentifier();
-        }
+        return $this->client->endpointId();
     }
 
     /**
@@ -258,13 +253,7 @@ class RelayConnection extends StreamConnection
                 ? $this->client->{$name}(...$command->getArguments())
                 : $this->client->rawCommand($name, ...$command->getArguments());
         } catch (RelayException $ex) {
-            $exception = $this->onCommandError($ex, $command);
-
-            if ($exception instanceof ErrorResponseInterface) {
-                return $exception;
-            }
-
-            throw $exception;
+            throw $this->onCommandError($ex, $command);
         }
     }
 
@@ -276,15 +265,15 @@ class RelayConnection extends StreamConnection
         $code = $exception->getCode();
         $message = $exception->getMessage();
 
-        if (strpos($message, 'RELAY_ERR_IO') !== false) {
+        if (strpos($message, 'RELAY_ERR_IO')) {
             return new ConnectionException($this, $message, $code, $exception);
         }
 
-        if (strpos($message, 'RELAY_ERR_REDIS') !== false) {
+        if (strpos($message, 'RELAY_ERR_REDIS')) {
             return new ServerException($message, $code, $exception);
         }
 
-        if (strpos($message, 'RELAY_ERR_WRONGTYPE') !== false && strpos($message, "Got reply-type 'status'") !== false) {
+        if (strpos($message, 'RELAY_ERR_WRONGTYPE') && strpos($message, "Got reply-type 'status'")) {
             $message = 'Operation against a key holding the wrong kind of value';
         }
 
