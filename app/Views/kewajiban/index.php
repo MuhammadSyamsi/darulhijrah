@@ -79,24 +79,6 @@
         <span class="font-medium text-gray-700"
               x-text="formatRupiah(s.spp ?? 0)"></span>
     </div>
-
-    <div class="flex justify-between text-xs text-gray-500">
-        <span>DU PSB</span>
-        <span class="font-medium text-red-600"
-              x-text="formatRupiah(s.tunggakandu ?? 0)"></span>
-    </div>
-
-    <div class="flex justify-between text-xs text-gray-500">
-        <span>DU ke-2</span>
-        <span class="font-medium text-red-600"
-              x-text="formatRupiah(s.tunggakandu2 ?? 0)"></span>
-    </div>
-
-    <div class="flex justify-between text-xs text-gray-500">
-        <span>DU ke-3</span>
-        <span class="font-medium text-red-600"
-              x-text="formatRupiah(s.tunggakandu3 ?? 0)"></span>
-    </div>
 </div>
 
                     </div>

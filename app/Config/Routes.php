@@ -201,7 +201,7 @@ $routes->group('validasi', ['filter' => 'role:superadmin,musrif'], function ($ro
 });
 
 // ---------------- menu baru tag kewajiban -----------------
-$routes->group('kewajiban', function ($routes) {
+$routes->group('kewajiban', ['filter' => 'role:superadmin'], function ($routes) {
     $routes->get('/', 'KewajibanController::index');
 
     $routes->get('kelas', 'KewajibanController::kelas');
@@ -214,4 +214,10 @@ $routes->group('kewajiban', function ($routes) {
     $routes->put('update-status/(:num)', 'KewajibanController::updateStatus/$1');
     $routes->put('update-status-massal', 'KewajibanController::updateStatusMassal');
     $routes->get('download-csv', 'KewajibanController::downloadCsv');
+});
+
+$routes->group('transfer',['filter' => 'role:superadmin'], function ($routes) {
+    $routes->get('/', 'Transfer::index');
+    $routes->get('data', 'Transfer::data');
+    $routes->get('csv', 'Transfer::csv');
 });

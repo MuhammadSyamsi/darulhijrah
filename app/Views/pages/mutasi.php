@@ -171,7 +171,10 @@ const formatItem = (item, type) => {
           </h3>
 
           <p class="text-sm text-gray-500 mt-1">
-            ${formatTanggalIndo(item.tanggal)} • ${item.rekening} • ${formatRupiah(item.saldomasuk)}
+            <span class="inline-block bg-yellow-100 text-yellow-800 text-xs font-medium px-2 py-0.5 rounded-full">
+              ${formatTanggalIndo(item.tanggal)}
+            </span>
+            • ${item.rekening} • ${formatRupiah(item.saldomasuk)}
           </p>
 
           <p class="mt-2 text-gray-700 text-sm">
