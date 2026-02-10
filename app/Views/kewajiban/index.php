@@ -71,12 +71,34 @@
                             x-text="s.nama.charAt(0)"
                         ></div>
 
-                        <div>
-                            <div class="font-semibold text-gray-800" x-text="s.nama"></div>
-                            <div class="text-xs text-gray-500">
-                                SPP: <span x-text="formatRupiah(s.spp)"></span>
-                            </div>
-                        </div>
+                        <div class="space-y-1">
+    <div class="font-semibold text-gray-800 text-sm" x-text="s.nama"></div>
+
+    <div class="flex justify-between text-xs text-gray-500">
+        <span>SPP</span>
+        <span class="font-medium text-gray-700"
+              x-text="formatRupiah(s.spp ?? 0)"></span>
+    </div>
+
+    <div class="flex justify-between text-xs text-gray-500">
+        <span>DU PSB</span>
+        <span class="font-medium text-red-600"
+              x-text="formatRupiah(s.tunggakandu ?? 0)"></span>
+    </div>
+
+    <div class="flex justify-between text-xs text-gray-500">
+        <span>DU ke-2</span>
+        <span class="font-medium text-red-600"
+              x-text="formatRupiah(s.tunggakandu2 ?? 0)"></span>
+    </div>
+
+    <div class="flex justify-between text-xs text-gray-500">
+        <span>DU ke-3</span>
+        <span class="font-medium text-red-600"
+              x-text="formatRupiah(s.tunggakandu3 ?? 0)"></span>
+    </div>
+</div>
+
                     </div>
                     </td>
 

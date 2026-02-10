@@ -58,7 +58,7 @@ class KewajibanController extends BaseController
     public function riwayat($nisn)
     {
         $data = $this->db->table('santri s')
-            ->select('s.nama, s.kelas, t.idtrans, t.tanggal, t.saldomasuk, t.keterangan, d.*')
+            ->select('s.nama, s.tunggakandu, s.tunggakandu2, s.tunggakandu3, s.kelas, t.idtrans, t.tanggal, t.saldomasuk, t.keterangan, d.*')
             ->join('transfer t', 't.nisn = s.nisn', 'left')
             ->join('detail d', 'd.id = t.idtrans', 'left')
             ->where('s.nisn', $nisn)
