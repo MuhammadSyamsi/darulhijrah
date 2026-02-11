@@ -77,6 +77,8 @@ class Transfer extends BaseController
 
         $builder = $this->transferModel
         ->select('
+        transfer.nama,
+        transfer.kelas,
         transfer.tanggal,
         transfer.rekening,
         transfer.program,
@@ -118,12 +120,14 @@ class Transfer extends BaseController
         $out = fopen('php://output', 'w');
 
         fputcsv($out, [
-            'Tanggal','Rekening','Program','Saldo Masuk','Keterangan',
+            'Nama','Kelas','Tanggal','Rekening','Program','Saldo Masuk','Keterangan',
             'Daftar Ulang','Tunggakan SPP','Inden SPP','SPP','Uang Saku','Infaq','Formulir'
         ]);
 
         foreach ($rows as $r) {
             fputcsv($out, [
+                $r['nama'],
+                $r['kelas'],
                 $r['tanggal'],
                 $r['rekening'],
                 $r['program'],
@@ -142,4 +146,74 @@ class Transfer extends BaseController
         fclose($out);
         exit;
     }
+    
+public function updateDetail($idtrans)
+{
+    try {
+        $db = db_connect();
+        $data = $this->request->getJSON(true);
+
+        if (!$data) {
+            return $this->response->setJSON([
+                'status' => 'error',
+                'message' => 'JSON tidak terbaca'
+            ]);
+        }
+
+        // Update tabel detail
+        $db->table('detail')
+            ->where('id', $idtrans)
+            ->update([
+                'spp'           => (int)($data['spp'] ?? 0),
+                'tunggakan_spp' => (int)($data['tunggakan_spp'] ?? 0),
+                'inden_spp'     => (int)($data['inden_spp'] ?? 0),
+                'daftarulang'   => (int)($data['daftarulang'] ?? 0),
+                'uangsaku'      => (int)($data['uangsaku'] ?? 0),
+                'infaq'         => (int)($data['infaq'] ?? 0),
+                'formulir'      => (int)($data['formulir'] ?? 0),
+            ]);
+
+        // Hitung total
+        $total =
+            (int)($data['spp'] ?? 0) +
+            (int)($data['tunggakan_spp'] ?? 0) +
+            (int)($data['inden_spp'] ?? 0) +
+            (int)($data['daftarulang'] ?? 0) +
+            (int)($data['uangsaku'] ?? 0) +
+            (int)($data['infaq'] ?? 0) +
+            (int)($data['formulir'] ?? 0);
+
+        // Update header
+        $db->table('transfer')
+            ->where('idtrans', $idtrans)
+            ->update([
+                'saldomasuk' => $total
+            ]);
+
+        return $this->response->setJSON([
+            'status' => 'ok',
+            'total' => $total
+        ]);
+
+    } catch (\Throwable $e) {
+        return $this->response->setStatusCode(500)
+            ->setJSON([
+                'status' => 'error',
+                'message' => $e->getMessage()
+            ]);
+    }
+}
+
+    public function delete($id)
+        {
+            db_connect()
+                ->table('transfer')
+                ->where('idtrans', $id)
+                ->delete();
+        
+            return $this->response->setJSON([
+                'status' => 'deleted'
+            ]);
+        }
+
 }

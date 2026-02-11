@@ -220,4 +220,6 @@ $routes->group('transfer',['filter' => 'role:superadmin'], function ($routes) {
     $routes->get('/', 'Transfer::index');
     $routes->get('data', 'Transfer::data');
     $routes->get('csv', 'Transfer::csv');
+    $routes->post('updateDetail/(:num)', 'Transfer::updateDetail/$1');
+    $routes->delete('delete/(:num)', 'Transfer::delete/$1');
 });
