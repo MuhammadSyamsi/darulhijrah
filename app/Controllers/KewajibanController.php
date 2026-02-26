@@ -162,73 +162,106 @@ class KewajibanController extends BaseController
     public function downloadCsv()
     {
         $kelas = $this->request->getGet('kelas');
-
-        // Ambil semua TAG yang dipakai (misal: spp juli, spp agustus)
-        $tags = $this->db->table('kewajiban')
-            ->select('tag')
-            ->groupBy('tag')
-            ->orderBy('tag')
-            ->get()
-            ->getResultArray();
-
-        $tagList = array_column($tags, 'tag');
-
-        // Ambil data santri + kewajiban
+    
+        // Ambil data santri + kewajiban + transfer
         $builder = $this->db->table('santri s')
-            ->select('s.nisn, s.nama, s.kelas, s.spp, k.tag, k.status')
-            ->join('kewajiban k', 'k.nisn = s.nisn', 'left');
-
+            ->select('
+                s.nisn,
+                s.nama,
+                s.jenjang,
+                s.kelas,
+                s.spp,
+                k.tag,
+                k.status,
+                t.tanggal,
+                t.keterangan
+            ')
+            ->join('kewajiban k', 'k.nisn = s.nisn', 'left')
+            ->join('transfer t', 't.nisn = s.nisn', 'left')
+            ->orderBy('s.nama')
+            ->orderBy('k.tag');
+    
         if ($kelas) {
             $builder->where('s.kelas', $kelas);
         }
-
+    
         $rows = $builder->get()->getResultArray();
-
+    
+        // Nama bulan Indonesia
+        $bulan = [
+            1=>'Januari','Februari','Maret','April','Mei','Juni',
+            'Juli','Agustus','September','Oktober','November','Desember'
+        ];
+    
         // Group data per santri
         $data = [];
         foreach ($rows as $r) {
             if (!isset($data[$r['nisn']])) {
                 $data[$r['nisn']] = [
-                    'nama'  => $r['nama'],
-                    'kelas' => $r['kelas'],
-                    'spp'   => $r['spp'],
-                    'tags'  => []
+                    'nama'     => $r['nama'],
+                    'jenjang'  => $r['jenjang'],
+                    'kelas'    => $r['kelas'],
+                    'spp'      => $r['spp'],
+                    'status'   => [],
+                    'riwayat'  => []
                 ];
             }
-
+    
             if ($r['tag']) {
-                $data[$r['nisn']]['tags'][$r['tag']] = $r['status'];
+    
+                // Status tag
+                $data[$r['nisn']]['status'][] =
+                    $r['tag'] . ':' . ($r['status'] ?? '-');
+    
+                // Riwayat pembayaran (jika ada tanggal)
+                if (!empty($r['tanggal'])) {
+                    $t = strtotime($r['tanggal']);
+                    $tgl = date('d', $t) . ' ' .
+                           $bulan[(int)date('m', $t)] . ' ' .
+                           date('Y', $t);
+    
+                    $data[$r['nisn']]['riwayat'][] =
+                        $tgl . ' - ' . ($r['keterangan'] ?? '');
+                }
             }
         }
-
-        // Header CSV
+    
+        // Output CSV
         $filename = 'kewajiban_santri.csv';
-        header('Content-Type: text/csv');
+        header('Content-Type: text/csv; charset=utf-8');
         header('Content-Disposition: attachment; filename="' . $filename . '"');
-
+    
         $output = fopen('php://output', 'w');
-
-        // Header kolom
+    
+        // Header tetap
         fputcsv(
             $output,
-            array_merge(['nama', 'kelas', 'spp'], $tagList)
+            ['no', 'nama', 'jenjang', 'kelas', 'spp', 'status(tag)', 'riwayat pembayaran'],
+            ';'
         );
-
+    
         // Isi data
+        $no = 1;
         foreach ($data as $row) {
-            $csvRow = [
-                $row['nama'],
-                $row['kelas'],
-                $row['spp']
-            ];
-
-            foreach ($tagList as $tag) {
-                $csvRow[] = $row['tags'][$tag] ?? '';
-            }
-
-            fputcsv($output, $csvRow);
+    
+            $status  = implode(' ; ', array_unique($row['status']));
+            $riwayat = implode(' ; ', array_unique($row['riwayat']));
+    
+            fputcsv(
+                $output,
+                [
+                    $no++,
+                    $row['nama'],
+                    $row['jenjang'],
+                    $row['kelas'],
+                    $row['spp'],
+                    $status,
+                    $riwayat
+                ],
+                ';'
+            );
         }
-
+    
         fclose($output);
         exit;
     }

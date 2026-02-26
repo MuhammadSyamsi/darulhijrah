@@ -1,4 +1,10 @@
-<?= $this->extend('template_general'); ?>
+<?php
+if (logged_in() && in_groups('superadmin')) {
+    echo $this->extend('template_sekolah');
+} else {
+    echo $this->extend('template_general');
+}
+?>
 <?= $this->section('konten'); ?>
 
 <div class="container-fluid">
@@ -174,7 +180,7 @@
                         <div class="card-body">
                             <h6 class="card-title"><?= esc($t['nama']); ?> / <?= esc($t['kelas']); ?></h6>
                             <ul class="ps-3 mb-0">
-                                <li>SPP: <b>Rp <?= format_rupiah($t['tunggakanspp']); ?>,-</b></li>
+                                <li>SPP: <b>Rp <?= format_rupiah($t['tunggakanspp']); ?>,- (<?= $t['tunggakanspp']/$t['spp']; ?> bulan)</b></li>
                                 <li>Daftar Ulang: <b>Rp <?= format_rupiah($t['tunggakandu']); ?>,-</b></li>
                                 <li>Tahun Lalu: <b>Rp <?= format_rupiah($t['tunggakantl']); ?>,-</b></li>
                             </ul>
@@ -210,7 +216,7 @@
                         <div class="card-body">
                             <h6 class="card-title"><?= esc($ta['nama']); ?> / <?= esc($ta['jenjang']); ?></h6>
                             <ul class="ps-3 mb-0">
-                                <li>SPP: <b>Rp <?= format_rupiah($ta['tunggakanspp']); ?>,-</b></li>
+                                <li>SPP: <b>Rp <?= format_rupiah($ta['tunggakanspp']); ?>,- (<?= $ta['tunggakanspp']/$ta['spp']; ?> bulan)</b></li>
                                 <li>Daftar Ulang: <b>Rp <?= format_rupiah($ta['tunggakandu']); ?>,-</b></li>
                                 <li>Tahun Lalu: <b>Rp <?= format_rupiah($ta['tunggakantl']); ?>,-</b></li>
                                 <?php if (is_null($ta['uangsaku'])): ?>
@@ -266,7 +272,7 @@ const doSearch = async () => {
             <div class="card-body">
                 <h6 class="card-title">${item.nama} / ${item.kelas}</h6>
                 <ul class="ps-3 mb-0">
-                    <li>SPP: <b>Rp ${formatRupiah(item.tunggakanspp)},-</b></li>
+                    <li>SPP: <b>Rp ${formatRupiah(item.tunggakanspp)},- (${item.tunggakanspp/item.spp} bulan) </b></li>
                     <li>Daftar Ulang: <b>Rp ${formatRupiah(item.tunggakandu)},-</b></li>
                     <li>Tahun Lalu: <b>Rp ${formatRupiah(item.tunggakantl)},-</b></li>
                 </ul>
@@ -290,7 +296,7 @@ const doSearch = async () => {
         <div class="card-body">
             <h6 class="card-title">${item.nama} / ${item.jenjang}</h6>
             <ul class="ps-3 mb-0">
-                <li>SPP: <b>Rp ${formatRupiah(item.tunggakanspp)},-</b></li>
+                <li>SPP: <b>Rp ${formatRupiah(item.tunggakanspp)},- (${item.tunggakanspp/item.spp} bulan)</b></li>
                 <li>Daftar Ulang: <b>Rp ${formatRupiah(item.tunggakandu)},-</b></li>
                 <li>Tahun Lalu: <b>Rp ${formatRupiah(item.tunggakantl)},-</b></li>
                 ${
@@ -415,7 +421,7 @@ Semoga Allah ﷻ senantiasa melancarkan rezeki Bapak/Ibu dan memberkahi keluarga
 
                 <h6 class="card-title">${item.nama} / ${item.kelas}</h6>
                 <ul class="ps-3 mb-0">
-                    <li>SPP: <b>Rp ${formatRupiah(item.tunggakanspp)},-</b></li>
+                    <li>SPP: <b>Rp ${formatRupiah(item.tunggakanspp)},- (${item.tunggakanspp/item.spp} bulan)</b></li>
                     <li>Daftar Ulang: <b>Rp ${formatRupiah(item.tunggakandu)},-</b></li>
                     <li>Tahun Lalu: <b>Rp ${formatRupiah(item.tunggakantl)},-</b></li>
                 </ul>

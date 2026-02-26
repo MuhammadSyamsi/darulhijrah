@@ -175,9 +175,19 @@ document.addEventListener('alpine:init', () => {
 
     formatRibuan(value) {
       if (!value) return '';
-      return value.toString()
-        .replace(/[^0-9]/g, '')
-        .replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+    
+      let str = value.toString();
+    
+      // Cek apakah negatif
+      const isNegative = str.startsWith('-');
+    
+      // Ambil hanya angka
+      str = str.replace(/[^0-9]/g, '');
+    
+      // Format ribuan
+      str = str.replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+    
+      return isNegative ? '-' + str : str;
     },
 
     init() {
@@ -187,8 +197,10 @@ document.addEventListener('alpine:init', () => {
         const el = document.querySelector(`input[name="${name}"]`) || document.getElementById(name);
         if (!el) return;
 
-        const raw = el.value.toString().replace(/\D/g, '');
-        el.value = this.formatRibuan(raw);
+        const val = el.value.toString();
+        const isNegative = val.startsWith('-');
+        const raw = val.replace(/[^0-9]/g, '');
+        el.value = this.formatRibuan((isNegative ? '-' : '') + raw);
 
         // Set input mode mobile numeric
         el.setAttribute('inputmode', 'numeric');
@@ -198,8 +210,9 @@ document.addEventListener('alpine:init', () => {
           const before = el.value;
           const caretBefore = el.selectionStart ?? before.length;
 
-          const digits = before.replace(/\D/g, '');
-          el.value = this.formatRibuan(digits);
+          const isNegative = before.startsWith('-');
+          const digits = before.replace(/[^0-9]/g, '');
+          el.value = this.formatRibuan((isNegative ? '-' : '') + digits);
 
           // Koreksi caret
           const digitsBefore = before.slice(0, caretBefore).replace(/\D/g, '').length;

@@ -67,12 +67,21 @@
 
     <!-- Search -->
     <div class="md:col-span-4">
-      <div class="bg-white shadow rounded-xl p-3">
+      <div class="bg-white shadow rounded-xl p-3 space-y-2">
+    
+        <!-- Search Nama -->
         <input id="search-input"
                type="search"
-               placeholder="🔍 Cari Nama Santri / Keterangan..."
+               placeholder="🔍 Cari Nama Santri..."
                class="w-full border rounded-lg px-4 py-2 text-base focus:ring focus:ring-green-300"
                autofocus />
+    
+        <!-- Search Keterangan -->
+        <input id="search-keterangan"
+               type="search"
+               placeholder="📝 Cari Keterangan..."
+               class="w-full border rounded-lg px-4 py-2 text-sm focus:ring focus:ring-green-300" />
+    
       </div>
     </div>
 
@@ -125,6 +134,7 @@ const programFilter = document.getElementById('program-filter');
 const jenisFilter = document.querySelectorAll('input[name="jenisFilter"]');
 const hasilContainer = document.getElementById('hasil-container');
 const downloadBtn = document.getElementById('download-btn');
+const searchKeterangan = document.getElementById('search-keterangan');
 
 const formatRupiah = val =>
   new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR' }).format(val);
@@ -222,6 +232,7 @@ const formatItem = (item, type) => {
 
 const doSearch = async () => {
   const keyword = searchInput.value.trim();
+  const keterangan = searchKeterangan.value.trim();
   const tanggal_awal = tanggalAwalFilter.value;
   const tanggal_akhir = tanggalAkhirFilter.value;
   const rekening = rekeningFilter.value;
@@ -230,8 +241,19 @@ const doSearch = async () => {
 
   const response = await fetch('/mutasi/search', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json', 'X-Requested-With': 'XMLHttpRequest' },
-    body: JSON.stringify({ keyword, tanggal_awal, tanggal_akhir, rekening, program, jenis })
+    headers: { 
+      'Content-Type': 'application/json', 
+      'X-Requested-With': 'XMLHttpRequest' 
+    },
+    body: JSON.stringify({ 
+      keyword, 
+      keterangan,
+      tanggal_awal, 
+      tanggal_akhir, 
+      rekening, 
+      program, 
+      jenis 
+    })
   });
 
   const data = await response.json();
@@ -269,6 +291,7 @@ tanggalAwalFilter.addEventListener('change', doSearch);
 tanggalAkhirFilter.addEventListener('change', doSearch);
 rekeningFilter.addEventListener('change', doSearch);
 programFilter.addEventListener('change', doSearch);
+searchKeterangan.addEventListener('input', debounce(doSearch, 500));
 jenisFilter.forEach(r => r.addEventListener('change', doSearch));
 
 // init default

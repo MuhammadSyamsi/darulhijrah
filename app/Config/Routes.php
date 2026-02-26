@@ -5,6 +5,8 @@ use CodeIgniter\Router\RouteCollection;
 // ROUTE UMUM (terfilter myth auth sementara)
 $routes->get('/', 'Home::index');
 $routes->get('/beranda', 'Home::beranda');
+$routes->get('/psb-compare', 'Home::psbCompare');
+$routes->get('/spp-compare', 'Home::sppCompare');
 $routes->get('/tentang', 'Home::tentang');
 
 $routes->post('/data-tunggakan', 'Page::datatunggakan');
@@ -81,6 +83,7 @@ $routes->group('', ['filter' => 'role:superadmin,ustadz'], function ($routes) {
 $routes->group('', ['filter' => 'role:superadmin'], function ($routes) {
     $routes->get('/riwayat-pembayaran', 'Page::mutasi');
     $routes->get('/pembayaran-alumni', 'Alumni::tambah');
+    $routes->post('edittransalumni', 'Alumni::edit');
     $routes->get('/pembayaran-psb', 'Psb::pembayaran');
     $routes->get('mutasi/download', 'Page::download_datapembayaran');
 $routes->get('tunggakan/download', 'Page::download');
@@ -93,7 +96,7 @@ $routes->get('/keuangan/tunggakan', 'Page::tunggakan');
     $routes->get('laporan-pemasukan', 'Home::koran');
 $routes->get('laporan/downloadBulanan', 'Home::downloadBulanan');
 $routes->get('laporan/downloadHarian', 'Home::downloadHarian');
-    $routes->get('/tunggakan-admin', 'Page::datatunggakanadmin');
+    $routes->get('/tunggakan-admin', 'Page::datatunggakan');
     $routes->post('/tunggakan-admin', 'Page::datatunggakanadmin');
     $routes->post('tunggakan-admin/search', 'Page::cariTunggakanadmin');
 $routes->group('tunggakan-admin', function($routes) {
@@ -223,3 +226,20 @@ $routes->group('transfer',['filter' => 'role:superadmin'], function ($routes) {
     $routes->post('updateDetail/(:num)', 'Transfer::updateDetail/$1');
     $routes->delete('delete/(:num)', 'Transfer::delete/$1');
 });
+
+$routes->group('laporan', ['filter' => 'login'], function ($routes) {
+    $routes->get('spp', 'LaporanSpp::index');
+    $routes->get('spp/download', 'LaporanSpp::download');
+});
+
+$routes->group('tunggakan', ['filter' => 'login'], function ($routes) {
+    $routes->get('create', 'Tunggakan::create');
+    $routes->post('store', 'Tunggakan::store');
+    $routes->get('edit/(:num)', 'Tunggakan::edit/$1');
+    $routes->post('update/(:num)', 'Tunggakan::update/$1');
+    $routes->get('delete/(:num)', 'Tunggakan::delete/$1');
+});
+
+// Alumni
+$routes->get('laporan/spp-alumni', 'LaporanSppAlumni::index');
+$routes->get('laporan/spp-alumni/download', 'LaporanSppAlumni::download');

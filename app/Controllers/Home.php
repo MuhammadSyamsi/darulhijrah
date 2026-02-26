@@ -30,30 +30,6 @@ class Home extends BaseController
         $grandTotal = $this->hitungtunggakan($temptung);
         $tahunini = date("Y");
         $data = [
-            "jumlah" => $resulSum
-                ->select("sum(saldomasuk) as sum")
-                ->where("month(tanggal) = month(CURRENT_DATE)")
-                ->where("YEAR(tanggal) = YEAR(CURRENT_DATE)")
-                ->findAll(),
-            "jumlahrekening" => $resulSum
-                ->select(
-                    "YEAR(tanggal) as tahun, MONTHNAME(tanggal) as bulan, sum(saldomasuk) as sum, rekening"
-                )
-                ->groupBy("rekening, tahun, bulan")
-                ->orderBy("tahun", "desc")
-                ->where("month(tanggal) = month(CURRENT_DATE)")
-                ->where("YEAR(tanggal) = $tahunini")
-                ->findAll(),
-            "bulanini" => $resulSum
-                ->select(
-                    "YEAR(tanggal) as tahun, tanggal, sum(saldomasuk) as sum"
-                )
-                ->where("month(tanggal) = month(CURRENT_DATE)")
-                ->where("YEAR(tanggal) = YEAR(CURRENT_DATE)")
-                // ->where("YEAR(tanggal) = $tahunini")
-                ->groupBy("tahun")
-                ->orderBy("tahun", "desc")
-                ->findAll(1),
             "tunggakan" => $resultung
                 ->select(
                     "*, (tunggakandu + tunggakantl + tunggakanspp) as totaltung"
@@ -78,24 +54,7 @@ class Home extends BaseController
                     "*, count(status) as jumlah, sum(tunggakandu) as totaltunggakan, sum(daftarulang) as kewajiban, (sum(daftarulang) - sum(tunggakandu)) as pembayaran"
                 )
                 ->groupBy("status")
-                ->findAll(),
-            "detailtrans" => $detail
-                ->select(
-                    "*, rekening, program, sum(daftarulang) as daftarulang, sum(tunggakan) as tunggakan, sum(spp) as spp, sum(uangsaku) as saku, sum(infaq) as infaq, sum(formulir) as formulir"
-                )
-                ->groupBy("rekening, program")
-                ->orderBy("rekening")
-                ->where("month(tanggal) = month(CURRENT_DATE)")
-                ->where("YEAR(tanggal) = YEAR(CURRENT_DATE)")
-                ->findAll(),
-            "detailtranslalu" => $detail
-                ->select(
-                    "*, rekening, program, sum(daftarulang) as daftarulang, sum(tunggakan) as tunggakan, sum(spp) as spp, sum(uangsaku) as saku, sum(infaq) as infaq, sum(formulir) as formulir"
-                )
-                ->groupBy("rekening, program")
-                ->orderBy("rekening")
-                ->where("month(tanggal) = month(CURRENT_DATE) - 1")
-                ->where("YEAR(tanggal) = YEAR(CURRENT_DATE)")
+                ->where("status", "diterima")                
                 ->findAll(),
         ];
         return view("pages/home", $data);
@@ -112,6 +71,120 @@ class Home extends BaseController
         }
 
         return $grandTotal;
+    }
+    
+    public function psbCompare()
+    {
+        $detail = new DetailModel();
+    
+        // Filter 1
+        $f1_start = $this->request->getGet('f1_start'); // format: YYYY-MM
+        $f1_end   = $this->request->getGet('f1_end');
+    
+        // Filter 2
+        $f2_start = $this->request->getGet('f2_start');
+        $f2_end   = $this->request->getGet('f2_end');
+    
+        // Konversi ke tanggal
+        $f1_start_date = $f1_start ? $f1_start . '-01' : null;
+        $f1_end_date   = $f1_end ? date('Y-m-t', strtotime($f1_end . '-01')) : null;
+    
+        $f2_start_date = $f2_start ? $f2_start . '-01' : null;
+        $f2_end_date   = $f2_end ? date('Y-m-t', strtotime($f2_end . '-01')) : null;
+    
+        // ======================
+        // FILTER 1
+        // ======================
+        $filter1 = $detail
+            ->select('SUM(daftarulang) as total, COUNT(id) as jumlah')
+            ->where('program', 'PSB')
+            ->whereIn('rekening', ['BSI', 'Muamalat Salam', 'Muamalat Yatim', 'Jatim Syariah'])
+            ->where('tanggal >=', $f1_start_date)
+            ->where('tanggal <=', $f1_end_date)
+            ->first();
+    
+        // FILTER 2
+        $filter2 = $detail
+            ->select('SUM(daftarulang) as total, COUNT(id) as jumlah')
+            ->where('program', 'PSB')
+            ->whereIn('rekening', ['BSI', 'Muamalat Salam', 'Muamalat Yatim', 'Jatim Syariah'])
+            ->where('tanggal >=', $f2_start_date)
+            ->where('tanggal <=', $f2_end_date)
+            ->first();
+    
+        return $this->response->setJSON([
+            'filter1' => [
+                'total'  => (int) ($filter1['total'] ?? 0),
+                'jumlah' => (int) ($filter1['jumlah'] ?? 0),
+            ],
+            'filter2' => [
+                'total'  => (int) ($filter2['total'] ?? 0),
+                'jumlah' => (int) ($filter2['jumlah'] ?? 0),
+            ],
+        ]);
+    }
+
+    public function sppCompare()
+    {
+        $detail = new DetailModel();
+    
+        // Filter 1
+        $f1_start = $this->request->getGet('f1_start');
+        $f1_end   = $this->request->getGet('f1_end');
+    
+        // Filter 2
+        $f2_start = $this->request->getGet('f2_start');
+        $f2_end   = $this->request->getGet('f2_end');
+    
+        $f1_start_date = $f1_start ? $f1_start . '-01' : null;
+        $f1_end_date   = $f1_end ? date('Y-m-t', strtotime($f1_end)) : null;
+    
+        $f2_start_date = $f2_start ? $f2_start . '-01' : null;
+        $f2_end_date   = $f2_end ? date('Y-m-t', strtotime($f2_end)) : null;
+    
+        // ================= FILTER 1 =================
+        $f1 = $detail->select("
+                SUM(tunggakan_spp) as tunggakan,
+                SUM(spp) as spp,
+                SUM(inden_spp) as inden,
+                COUNT(id) as jumlah
+            ")
+            ->where('tanggal >=', $f1_start_date)
+            ->where('tanggal <=', $f1_end_date)
+            ->whereIn('rekening', ['BSI', 'Muamalat Salam', 'Muamalat Yatim', 'Jatim Syariah'])
+            ->first();
+    
+        // ================= FILTER 2 =================
+        $f2 = $detail->select("
+                SUM(tunggakan_spp) as tunggakan,
+                SUM(spp) as spp,
+                SUM(inden_spp) as inden,
+                COUNT(id) as jumlah
+            ")
+            ->where('tanggal >=', $f2_start_date)
+            ->where('tanggal <=', $f2_end_date)
+            ->whereIn('rekening', ['BSI', 'Muamalat Salam', 'Muamalat Yatim', 'Jatim Syariah'])
+            ->first();
+    
+        $f1_total = ($f1['tunggakan'] ?? 0) + ($f1['spp'] ?? 0) + ($f1['inden'] ?? 0);
+        $f2_total = ($f2['tunggakan'] ?? 0) + ($f2['spp'] ?? 0) + ($f2['inden'] ?? 0);
+    
+        return $this->response->setJSON([
+            'f1' => [
+                'tunggakan' => (int) $f1['tunggakan'],
+                'spp'       => (int) $f1['spp'],
+                'inden'     => (int) $f1['inden'],
+                'total'     => (int) $f1_total,
+                'jumlah'    => (int) $f1['jumlah'],
+            ],
+            'f2' => [
+                'tunggakan' => (int) $f2['tunggakan'],
+                'spp'       => (int) $f2['spp'],
+                'inden'     => (int) $f2['inden'],
+                'total'     => (int) $f2_total,
+                'jumlah'    => (int) $f2['jumlah'],
+            ]
+        ]);
     }
 
     public function tentang()

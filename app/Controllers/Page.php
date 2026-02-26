@@ -409,12 +409,21 @@ public function cariMutasi()
     $tanggalAkhir  = $json['tanggal_akhir'] ?? '';
     $rekening      = $json['rekening'] ?? '';
     $program       = $json['program'] ?? '';
+    $keterangan    = $json['keterangan'] ?? '';
+
 
     $model = new TransferModel();
     $tableName = $model->getTable();
 
-    // 🔹 Helper closure untuk filter dinamis
-    $applyFilters = function ($builder) use ($keyword, $tanggalAwal, $tanggalAkhir, $rekening, $program) {
+    // Helper closure untuk filter dinamis
+    $applyFilters = function ($builder) use (
+        $keyword,
+        $tanggalAwal,
+        $tanggalAkhir,
+        $rekening,
+        $program,
+        $keterangan
+    ) {
         if ($keyword !== '') {
             $builder->groupStart()
                 ->like('nama', $keyword)
@@ -422,22 +431,28 @@ public function cariMutasi()
                 ->orLike('keterangan', $keyword)
                 ->groupEnd();
         }
-
+    
+        // tanggal
         if ($tanggalAwal !== '' && $tanggalAkhir !== '') {
             $builder->where('tanggal >=', $tanggalAwal)
                     ->where('tanggal <=', $tanggalAkhir);
         } else {
-            $builder->where('DATE(tanggal)', date('Y-m-d')); // default: hari ini
+            $builder->where('DATE(tanggal)', date('Y-m-d'));
         }
-
+    
+        // keterangan khusus
+        if ($keterangan !== '') {
+            $builder->like('keterangan', $keterangan);
+        }
+    
         if ($rekening !== '') {
             $builder->where('rekening', $rekening);
         }
-
+    
         if ($program !== '') {
             $builder->where('program', $program);
         }
-
+    
         return $builder;
     };
 

@@ -177,7 +177,7 @@ class Alumni extends BaseController
             'id' => $this->request->getPost('idtrans'),
         ];
 
-        return view('pages/kwitansi', $data);
+        return redirect()->to(base_url('/riwayat-pembayaran'));
     }
 
     public function delet($idtrans)
