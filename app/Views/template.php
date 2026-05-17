@@ -125,6 +125,7 @@
             <a class="block px-3 py-2 text-sm" href="<?= base_url('laporan-pemasukan') ?>">Pemasukan</a>
             <a class="block px-3 py-2 text-sm" href="<?= base_url('claim') ?>">Pengeluaran</a>
             <a class="block px-3 py-2 text-sm" href="<?= base_url('transfer') ?>">Lainnya</a>            
+            <a class="block px-3 py-2 text-sm" href="<?= base_url('laporan/spp') ?>">Laporan SPP</a>            
         </div>
     </div>
 

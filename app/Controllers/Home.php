@@ -282,7 +282,9 @@ class Home extends BaseController
         ->select("rekening, program, 
             SUM(daftarulang) as daftarulang, 
             SUM(tunggakan) as tunggakan, 
+            SUM(tunggakan_spp) as tunggakan_spp, 
             SUM(spp) as spp, 
+            SUM(inden_spp) as inden_spp, 
             SUM(uangsaku) as saku, 
             SUM(infaq) as infaq, 
             SUM(formulir) as formulir")
@@ -317,7 +319,7 @@ class Home extends BaseController
 // Detail transaksi (rekap per tanggal dari DetailModel)
 $detaildata = $detailmodel
     ->select("DATE(tanggal) as tanggal, rekening, 
-        SUM(daftarulang + tunggakan + spp + uangsaku + infaq + formulir) as total")
+        SUM(daftarulang + tunggakan + tunggakan_spp + spp + inden_spp + uangsaku + infaq + formulir) as total")
     ->where("MONTH(tanggal)", $bulan)
     ->where("YEAR(tanggal)", $tahun);
 

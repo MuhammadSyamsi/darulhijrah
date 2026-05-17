@@ -74,7 +74,9 @@
                 <th class="px-3 py-2">Program</th>
                 <th class="px-3 py-2 text-right">Daftar Ulang</th>
                 <th class="px-3 py-2 text-right">Tunggakan</th>
+                <th class="px-3 py-2 text-right">Tunggakan SPP</th>
                 <th class="px-3 py-2 text-right">SPP</th>
+                <th class="px-3 py-2 text-right">Inden SPP</th>
                 <th class="px-3 py-2 text-right">Uang Saku</th>
                 <th class="px-3 py-2 text-right">Infaq</th>
                 <th class="px-3 py-2 text-right">Formulir</th>
@@ -91,9 +93,9 @@
                 </tr>
               <?php else: ?>
                 <?php
-                $grand = ["daftarulang"=>0,"tunggakan"=>0,"spp"=>0,"saku"=>0,"infaq"=>0,"formulir"=>0,"total"=>0];
+                $grand = ["daftarulang"=>0,"tunggakan"=>0,"tunggakan_spp"=>0,"spp"=>0,"inden_spp"=>0,"saku"=>0,"infaq"=>0,"formulir"=>0,"total"=>0];
                 foreach ($detailtrans as $row):
-                  $total = $row['daftarulang'] + $row['tunggakan'] + $row['spp'] + $row['saku'] + $row['infaq'] + $row['formulir'];
+                  $total = $row['daftarulang'] + $row['tunggakan'] + $row['tunggakan_spp'] + $row['spp']+ $row['inden_spp']+ $row['saku'] + $row['infaq'] + $row['formulir'];
                   foreach ($grand as $k => $v) {
                     if ($k !== "total") $grand[$k] += $row[$k];
                   }
@@ -104,7 +106,9 @@
                     <td class="px-3 py-2"><?= esc($row['program']); ?></td>
                     <td class="px-3 py-2 text-right"><?= number_format($row['daftarulang']); ?></td>
                     <td class="px-3 py-2 text-right"><?= number_format($row['tunggakan']); ?></td>
+                    <td class="px-3 py-2 text-right"><?= number_format($row['tunggakan_spp']); ?></td>
                     <td class="px-3 py-2 text-right"><?= number_format($row['spp']); ?></td>
+                    <td class="px-3 py-2 text-right"><?= number_format($row['inden_spp']); ?></td>
                     <td class="px-3 py-2 text-right"><?= number_format($row['saku']); ?></td>
                     <td class="px-3 py-2 text-right"><?= number_format($row['infaq']); ?></td>
                     <td class="px-3 py-2 text-right"><?= number_format($row['formulir']); ?></td>
@@ -115,7 +119,9 @@
                   <td class="px-3 py-2 text-center" colspan="2">TOTAL</td>
                   <td class="px-3 py-2 text-right"><?= number_format($grand['daftarulang']); ?></td>
                   <td class="px-3 py-2 text-right"><?= number_format($grand['tunggakan']); ?></td>
+                  <td class="px-3 py-2 text-right"><?= number_format($grand['tunggakan_spp']); ?></td>
                   <td class="px-3 py-2 text-right"><?= number_format($grand['spp']); ?></td>
+                  <td class="px-3 py-2 text-right"><?= number_format($grand['inden_spp']); ?></td>
                   <td class="px-3 py-2 text-right"><?= number_format($grand['saku']); ?></td>
                   <td class="px-3 py-2 text-right"><?= number_format($grand['infaq']); ?></td>
                   <td class="px-3 py-2 text-right"><?= number_format($grand['formulir']); ?></td>

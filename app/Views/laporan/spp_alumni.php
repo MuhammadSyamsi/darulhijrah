@@ -17,8 +17,6 @@
 
     <h2 class="font-bold text-lg mb-3">Laporan SPP Alumni</h2>
 
-</div>
-
 <table class="min-w-full border border-gray-200 text-sm">
     <thead class="bg-gray-100 text-center">
         <tr>

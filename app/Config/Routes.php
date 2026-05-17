@@ -230,6 +230,14 @@ $routes->group('transfer',['filter' => 'role:superadmin'], function ($routes) {
 $routes->group('laporan', ['filter' => 'login'], function ($routes) {
     $routes->get('spp', 'LaporanSpp::index');
     $routes->get('spp/download', 'LaporanSpp::download');
+    $routes->get('spp-alumni', 'LaporanSppAlumni::index');
+    $routes->get('spp-alumni/download', 'LaporanSppAlumni::download');
+    
+    $routes->get('spp/download', 'LaporanSpp::download');
+    $routes->get('spp/downloaddu', 'LaporanSpp::downloaddaftarulang');
+    $routes->get('spp/downloadpsb', 'LaporanSpp::downloaddupsb');
+    $routes->get('spp/downloaddualumni', 'LaporanSpp::downloaddualumni');
+    $routes->get('spp-alumni/download', 'LaporanSppAlumni::download');
 });
 
 $routes->group('tunggakan', ['filter' => 'login'], function ($routes) {
@@ -238,8 +246,12 @@ $routes->group('tunggakan', ['filter' => 'login'], function ($routes) {
     $routes->get('edit/(:num)', 'Tunggakan::edit/$1');
     $routes->post('update/(:num)', 'Tunggakan::update/$1');
     $routes->get('delete/(:num)', 'Tunggakan::delete/$1');
+    $routes->get('generate/(:segment)', 'Tunggakan::generate/$1');
 });
 
-// Alumni
-$routes->get('laporan/spp-alumni', 'LaporanSppAlumni::index');
-$routes->get('laporan/spp-alumni/download', 'LaporanSppAlumni::download');
+// $routes->get('portofolio/spp/(:any)', 'PortofolioSpp::index/$1');
+// $routes->get('portofolio/spp/(:any)/download', 'PortofolioSpp::download/$1');
+$routes->get('portofolio', 'Portofolio::index');
+$routes->get('portofolio/(:segment)', 'Portofolio::index/$1');
+
+$routes->get('api/portsantri', 'Portofolio::cariSantri');
